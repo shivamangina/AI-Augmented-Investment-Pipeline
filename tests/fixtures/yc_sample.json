@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "name": "InvoiceAgent",
+    "slug": "invoiceagent",
+    "website": "https://invoiceagent.ai",
+    "oneLiner": "An AI agent that handles invoicing and bookkeeping for small businesses.",
+    "longDescription": "InvoiceAgent automates the entire bookkeeping workflow for SMBs, from invoice generation to reconciliation, using an autonomous agent that takes action across your accounting tools.",
+    "teamSize": 4,
+    "url": "https://www.ycombinator.com/companies/invoiceagent",
+    "batch": "W25",
+    "tags": ["Artificial Intelligence", "Fintech"],
+    "industries": ["Fintech", "SMB Software"]
+  },
+  {
+    "id": 2,
+    "name": "SpaceRobotics",
+    "slug": "spacerobotics",
+    "website": "https://spacerobotics.io",
+    "oneLiner": "Autonomous satellites for orbital debris removal.",
+    "longDescription": "We build robots that remove debris from orbit.",
+    "teamSize": 8,
+    "url": "https://www.ycombinator.com/companies/spacerobotics",
+    "batch": "W25",
+    "tags": ["Space Tech"],
+    "industries": ["Aerospace"]
+  }
+]
