@@ -1,0 +1,780 @@
+[
+  {
+    "name": "Kremis",
+    "slug": "kremis",
+    "website": "https://github.com/M2Dr3g0n/kremis",
+    "one_liner": "Deterministic memory graph for AI agents (Rust)",
+    "description": "",
+    "founders": [],
+    "team_signal": "",
+    "tags": [],
+    "sources": [
+      "hn"
+    ],
+    "source_urls": [
+      "https://news.ycombinator.com/item?id=47048981",
+      "https://github.com/M2Dr3g0n/kremis",
+      "https://news.ycombinator.com/item?id=47023918",
+      "https://news.ycombinator.com/item?id=48646165",
+      "https://github.com/NotASithLord/peerd",
+      "https://news.ycombinator.com/item?id=43710576",
+      "https://github.com/plandex-ai/plandex",
+      "https://news.ycombinator.com/item?id=47982708",
+      "https://github.com/lahfir/agent-desktop",
+      "https://news.ycombinator.com/item?id=47197011",
+      "https://github.com/MachineWisdomAI/fava-trails",
+      "https://news.ycombinator.com/item?id=48741558",
+      "https://github.com/hyperb1iss/sibyl"
+    ],
+    "traction_signals": [
+      {
+        "type": "hn_show_hn",
+        "label": "Show HN: 1 points, 0 comments",
+        "url": "https://news.ycombinator.com/item?id=47048981",
+        "date": "2026-02-17T16:03:30Z"
+      },
+      {
+        "type": "hn_show_hn",
+        "label": "Show HN: 1 points, 0 comments",
+        "url": "https://news.ycombinator.com/item?id=47023918",
+        "date": "2026-02-15T14:25:03Z"
+      },
+      {
+        "type": "hn_show_hn",
+        "label": "Show HN: 75 points, 23 comments",
+        "url": "https://news.ycombinator.com/item?id=48646165",
+        "date": "2026-06-23T15:05:00Z"
+      },
+      {
+        "type": "hn_show_hn",
+        "label": "Show HN: 257 points, 81 comments",
+        "url": "https://news.ycombinator.com/item?id=43710576",
+        "date": "2025-04-16T21:26:42Z"
+      },
+      {
+        "type": "hn_show_hn",
+        "label": "Show HN: 99 points, 44 comments",
+        "url": "https://news.ycombinator.com/item?id=47982708",
+        "date": "2026-05-02T02:18:24Z"
+      },
+      {
+        "type": "hn_show_hn",
+        "label": "Show HN: 4 points, 3 comments",
+        "url": "https://news.ycombinator.com/item?id=47197011",
+        "date": "2026-02-28T16:12:47Z"
+      },
+      {
+        "type": "hn_show_hn",
+        "label": "Show HN: 3 points, 0 comments",
+        "url": "https://news.ycombinator.com/item?id=48741558",
+        "date": "2026-07-01T02:03:01Z"
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"Show HN: Kremis \u2013 Rust graph DB; every answer is fact, inference, or unknown\" \u2014 3 points, 1 comments",
+        "url": "https://news.ycombinator.com/item?id=47376994",
+        "date": "2026-03-14T14:21:24Z"
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"Show HN: Kremis \u2013 Deterministic memory graph for AI agents (Rust)\" \u2014 1 points, 0 comments",
+        "url": "https://news.ycombinator.com/item?id=47048981",
+        "date": "2026-02-17T16:03:30Z"
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"Show HN: Kremis \u2013 Graph-based memory for AI agents with no hidden state (Rust)\" \u2014 1 points, 0 comments",
+        "url": "https://news.ycombinator.com/item?id=47023918",
+        "date": "2026-02-15T14:25:03Z"
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"Show HN: I built a graph store so my LLM can't hallucinate facts from my data\" \u2014 1 points, 1 comments",
+        "url": "https://news.ycombinator.com/item?id=47220414",
+        "date": "2026-03-02T16:46:17Z"
+      }
+    ]
+  },
+  {
+    "name": "Roark",
+    "slug": "roark",
+    "website": "https://roark.ai",
+    "one_liner": "Test, monitor, and improve your voice agents",
+    "description": "Roark helps teams test, monitor, and improve their voice agents.\r\n\r\nVoice AI is exploding, but reliability is still the #1 challenge. Teams spend hours manually testing agents and still miss failures. In the last 6 months, Roark has processed over 10M minutes of calls, powering monitoring and simulation for teams across the Voice AI ecosystem (including YC companies).\r\n\r\nWe close that gap by combining:\r\n\r\n \ud83d\udcca Monitoring & Evaluation - 40+ built-in metrics (latency, instruction-follow, sentiment, etc.), custom dashboards, alerts, and the ability to define your own. Up to 15 speakers with automatic speaker identification.\r\n \ud83c\udfad Simulations & Personas - end-to-end phone/WebSocket simulations for inbound and outbound agents, with configurable personas (accents, languages, speech & behavior profiles). Define tests as conversations with a graph-based approach, so you can easily branch into edge cases and variants.\r\n \ud83d\udd01 Full lifecycle loop - failed calls automatically become repeatable tests, so every failure makes your agent stronger.\r\n\r\nRoark is the missing QA layer for Voice AI - helping teams ship agents they can trust.",
+    "founders": [],
+    "team_signal": "Team size 3",
+    "tags": [
+      "Conversational AI",
+      "Analytics",
+      "B2B",
+      "AI"
+    ],
+    "sources": [
+      "yc"
+    ],
+    "source_urls": [
+      "https://www.ycombinator.com/companies/roark"
+    ],
+    "traction_signals": [
+      {
+        "type": "yc_batch",
+        "label": "YC batch W25",
+        "url": "https://www.ycombinator.com/companies/roark",
+        "date": null
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"Launch HN: Roark (YC W25) \u2013 Taking the pain out of voice AI testing\" \u2014 60 points, 29 comments",
+        "url": "https://news.ycombinator.com/item?id=43080895",
+        "date": "2025-02-17T16:54:52Z"
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"Howard Roark: In Praise of the Self Speech from the Fountainhead (1943)\" \u2014 5 points, 5 comments",
+        "url": "https://news.ycombinator.com/item?id=19305213",
+        "date": "2019-03-04T20:43:33Z"
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"Subway sandwich chain sells itself to private equity firm Roark Capital\" \u2014 4 points, 1 comments",
+        "url": "https://news.ycombinator.com/item?id=37249674",
+        "date": "2023-08-24T15:05:56Z"
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"Is Mark Zuckerberg the Howard Roark of the web?\" \u2014 2 points, 2 comments",
+        "url": "https://news.ycombinator.com/item?id=1353768",
+        "date": "2010-05-17T07:00:18Z"
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"Is Mark Zuckerberg the Howard Roark of the\u00a0web?\" \u2014 2 points, 1 comments",
+        "url": "https://news.ycombinator.com/item?id=1355021",
+        "date": "2010-05-17T18:06:33Z"
+      }
+    ]
+  },
+  {
+    "name": "Million",
+    "slug": "million",
+    "website": "https://million.dev",
+    "one_liner": "Tools for agent verification",
+    "description": "Remember the first time you hit  and your code actually worked? Something that didn't exist before, now alive on your screen.\r\n\r\nToday, coding agents can do that, orders of magnitude faster. But their verification is shallow at best. The faster agents generate code, the wider the gap grows. Nothing verifies software at the speed agents ship code.\r\n\r\nWe believe verification unlocks long-horizon coding agents: agents that run for days and prove their work as they go.",
+    "founders": [],
+    "team_signal": "Team size 5",
+    "tags": [
+      "Engineering, Product and Design",
+      "B2B",
+      "Artificial Intelligence"
+    ],
+    "sources": [
+      "yc"
+    ],
+    "source_urls": [
+      "https://www.ycombinator.com/companies/million"
+    ],
+    "traction_signals": [
+      {
+        "type": "yc_batch",
+        "label": "YC batch W24",
+        "url": "https://www.ycombinator.com/companies/million",
+        "date": null
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"The secret inside One Million Checkboxes\" \u2014 2365 points, 218 comments",
+        "url": "https://news.ycombinator.com/item?id=41395413",
+        "date": "2024-08-29T21:20:12Z"
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"Instagram's Million Dollar Bug\" \u2014 1562 points, 516 comments",
+        "url": "https://news.ycombinator.com/item?id=10754194",
+        "date": "2015-12-17T20:16:56Z"
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"The Fed says this is a cube of $1M. They're off by half a million\" \u2014 1478 points, 552 comments",
+        "url": "https://news.ycombinator.com/item?id=44435484",
+        "date": "2025-07-01T16:22:55Z"
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"U.S. users are leaving Facebook by the millions, Edison Research says\" \u2014 1293 points, 595 comments",
+        "url": "https://news.ycombinator.com/item?id=19322448",
+        "date": "2019-03-06T20:30:37Z"
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"Facebook Stored Hundreds of Millions of User Passwords in Plain Text for Years\" \u2014 1252 points, 429 comments",
+        "url": "https://news.ycombinator.com/item?id=19453359",
+        "date": "2019-03-21T15:21:38Z"
+      }
+    ]
+  },
+  {
+    "name": "Reprompt",
+    "slug": "reprompt",
+    "website": "https://repromptai.com",
+    "one_liner": "AI Agents for Location",
+    "description": "Reprompt builds AI Agents for Location-- Mapping companies like Radar and TomTom use our agents to get live information about a point of interest or business that keeps their maps up to date. \r\n\r\nTo do this we have an internal agents platform that supports Web, Vision, Doc Reading, and soon self-driving browser agents.",
+    "founders": [],
+    "team_signal": "Team size 3",
+    "tags": [
+      "Engineering, Product and Design",
+      "B2B"
+    ],
+    "sources": [
+      "yc"
+    ],
+    "source_urls": [
+      "https://www.ycombinator.com/companies/reprompt"
+    ],
+    "traction_signals": [
+      {
+        "type": "yc_batch",
+        "label": "YC batch W24",
+        "url": "https://www.ycombinator.com/companies/reprompt",
+        "date": null
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"Show HN: Structured output from LLMs without reprompting\" \u2014 174 points, 54 comments",
+        "url": "https://news.ycombinator.com/item?id=36750083",
+        "date": "2023-07-16T18:30:18Z"
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"Show HN: Reprompt \u2013 Score your AI coding prompts with NLP papers\" \u2014 13 points, 2 comments",
+        "url": "https://news.ycombinator.com/item?id=47425249",
+        "date": "2026-03-18T13:00:13Z"
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"Show HN: Reprompt \u2013 Collaborative Prompt Testing\" \u2014 4 points, 0 comments",
+        "url": "https://news.ycombinator.com/item?id=35526807",
+        "date": "2023-04-11T15:45:43Z"
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"Show HN: Reprompt \u2013 Analyze what you type into AI tools, not what they output\" \u2014 3 points, 3 comments",
+        "url": "https://news.ycombinator.com/item?id=47589133",
+        "date": "2026-03-31T15:46:25Z"
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"Show HN: RePrompter \u2013 Rough prompts to structured, scored prompts\" \u2014 2 points, 1 comments",
+        "url": "https://news.ycombinator.com/item?id=46973436",
+        "date": "2026-02-11T10:51:56Z"
+      }
+    ]
+  },
+  {
+    "name": "Keystroke",
+    "slug": "keystroke",
+    "website": "http://keystroke.ai",
+    "one_liner": "An all-in-one platform for building internal agents & workflows",
+    "description": "Keystroke is an all-in-one platform for building internal agents and workflows. \r\n\r\nIt's built from the ground up with coding agents in mind. Build agents and workflows as TypeScript in your own repo, then deploy them to a web app where your whole team can use them.",
+    "founders": [],
+    "team_signal": "Team size 4",
+    "tags": [
+      "Generative AI",
+      "Workflow Automation",
+      "Automation",
+      "B2B",
+      "Artificial Intelligence",
+      "Developer Tools",
+      "Analytics"
+    ],
+    "sources": [
+      "yc"
+    ],
+    "source_urls": [
+      "https://www.ycombinator.com/companies/keystroke"
+    ],
+    "traction_signals": [
+      {
+        "type": "yc_batch",
+        "label": "YC batch W24",
+        "url": "https://www.ycombinator.com/companies/keystroke",
+        "date": null
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"iOS14 reveals that TikTok may snoop clipboard contents every few keystrokes\" \u2014 1847 points, 591 comments",
+        "url": "https://news.ycombinator.com/item?id=23634138",
+        "date": "2020-06-24T21:34:32Z"
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"LinkedIn is copying the contents of my clipboard on every keystroke\" \u2014 928 points, 360 comments",
+        "url": "https://news.ycombinator.com/item?id=23716451",
+        "date": "2020-07-02T18:33:48Z"
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"Meta to start capturing employee mouse movements, keystrokes for AI training\" \u2014 803 points, 525 comments",
+        "url": "https://news.ycombinator.com/item?id=47851948",
+        "date": "2026-04-21T17:40:39Z"
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"Why does SSH send 100 packets per keystroke?\" \u2014 662 points, 362 comments",
+        "url": "https://news.ycombinator.com/item?id=46723990",
+        "date": "2026-01-22T19:27:32Z"
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"Keystroke timing obfuscation added to ssh(1)\" \u2014 586 points, 253 comments",
+        "url": "https://news.ycombinator.com/item?id=37307708",
+        "date": "2023-08-29T13:36:05Z"
+      }
+    ]
+  },
+  {
+    "name": "Mosaic",
+    "slug": "mosaic",
+    "website": "https://mosaic.so",
+    "one_liner": "Frontier Video Agents",
+    "description": "Mosaic builds frontier video agents. We work to codify the language of video and imbue that as taste into agents.\r\n",
+    "founders": [],
+    "team_signal": "Team size 5",
+    "tags": [
+      "Content",
+      "Consumer"
+    ],
+    "sources": [
+      "yc"
+    ],
+    "source_urls": [
+      "https://www.ycombinator.com/companies/mosaic-2"
+    ],
+    "traction_signals": [
+      {
+        "type": "yc_batch",
+        "label": "YC batch W25",
+        "url": "https://www.ycombinator.com/companies/mosaic-2",
+        "date": null
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"The story, as best I can remember, of the origin of Mosaic and Netscape [video]\" \u2014 380 points, 133 comments",
+        "url": "https://news.ycombinator.com/item?id=40825033",
+        "date": "2024-06-28T20:39:07Z"
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"Map of Space Invader Mosaics in Paris\" \u2014 276 points, 60 comments",
+        "url": "https://news.ycombinator.com/item?id=38238658",
+        "date": "2023-11-12T09:11:07Z"
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"Roman mosaic floor found under Italian vineyard\" \u2014 245 points, 93 comments",
+        "url": "https://news.ycombinator.com/item?id=23324521",
+        "date": "2020-05-27T15:10:45Z"
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"A 5.7 Terapixel Mosaic of the Surface of Mars\" \u2014 219 points, 63 comments",
+        "url": "https://news.ycombinator.com/item?id=36322395",
+        "date": "2023-06-14T06:57:59Z"
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"25 years ago today, NCSA Mosaic 1.0 was released\" \u2014 205 points, 64 comments",
+        "url": "https://news.ycombinator.com/item?id=18428682",
+        "date": "2018-11-11T21:24:13Z"
+      }
+    ]
+  },
+  {
+    "name": "rtrvr.ai",
+    "slug": "rtrvr-ai",
+    "website": "https://chromewebstore.google.com/detail/rtrvrai/jldogdgepmcedfdhgnmclgemehfhpomg",
+    "one_liner": "AI Web Agent for Automating Workflows and Data Extraction",
+    "description": "",
+    "founders": [],
+    "team_signal": "",
+    "tags": [],
+    "sources": [
+      "hn"
+    ],
+    "source_urls": [
+      "https://news.ycombinator.com/item?id=42496918",
+      "https://chromewebstore.google.com/detail/rtrvrai/jldogdgepmcedfdhgnmclgemehfhpomg"
+    ],
+    "traction_signals": [
+      {
+        "type": "hn_show_hn",
+        "label": "Show HN: 7 points, 4 comments",
+        "url": "https://news.ycombinator.com/item?id=42496918",
+        "date": "2024-12-23T19:22:24Z"
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"Show HN: rtrvr.ai \u2013 New Free SOTA AI Web Agent Beats Even Operator\" \u2014 8 points, 2 comments",
+        "url": "https://news.ycombinator.com/item?id=44349797",
+        "date": "2025-06-22T19:57:01Z"
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"Show HN: rtrvr.ai \u2013 AI Web Agent for Automating Workflows and Data Extraction\" \u2014 7 points, 4 comments",
+        "url": "https://news.ycombinator.com/item?id=42496918",
+        "date": "2024-12-23T19:22:24Z"
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"Show HN: Rtrvr.ai \u2013 Remote Control Your Browser with an AI Web Agent and MCP\" \u2014 6 points, 3 comments",
+        "url": "https://news.ycombinator.com/item?id=45898043",
+        "date": "2025-11-12T09:16:59Z"
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"Show HN: rtrvr.ai one shotted doing taxes using Gemini 2.5 Pro\" \u2014 4 points, 1 comments",
+        "url": "https://news.ycombinator.com/item?id=43572936",
+        "date": "2025-04-03T17:34:24Z"
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"Show HN: Rtrvr.ai \u2013 AI Web Agent and MCP Client within your own Browser [video]\" \u2014 3 points, 1 comments",
+        "url": "https://news.ycombinator.com/item?id=44035801",
+        "date": "2025-05-19T22:54:14Z"
+      }
+    ]
+  },
+  {
+    "name": "Sprocket",
+    "slug": "sprocket",
+    "website": "https://sprocket-demo.spikonado.com",
+    "one_liner": "The Best AI Agent for Hardware and Software Development",
+    "description": "",
+    "founders": [],
+    "team_signal": "",
+    "tags": [],
+    "sources": [
+      "hn"
+    ],
+    "source_urls": [
+      "https://news.ycombinator.com/item?id=49145934",
+      "https://sprocket-demo.spikonado.com"
+    ],
+    "traction_signals": [
+      {
+        "type": "hn_show_hn",
+        "label": "Show HN: 124 points, 15 comments",
+        "url": "https://news.ycombinator.com/item?id=49145934",
+        "date": "2026-08-02T16:26:19Z"
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"Show HN: Sprocket \u2013 The Best AI Agent for Hardware and Software Development\" \u2014 124 points, 15 comments",
+        "url": "https://news.ycombinator.com/item?id=49145934",
+        "date": "2026-08-02T16:26:19Z"
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"Sprockets 2.0.0 released (Ruby/Rack asset packaging)\" \u2014 39 points, 7 comments",
+        "url": "https://news.ycombinator.com/item?id=2938266",
+        "date": "2011-08-29T18:38:54Z"
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"Sprockets: JavaScript dependency management and concatenation (SvN)\" \u2014 36 points, 21 comments",
+        "url": "https://news.ycombinator.com/item?id=487601",
+        "date": "2009-02-19T18:13:29Z"
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"Assets management with Sprockets on Goliath\" \u2014 11 points, 0 comments",
+        "url": "https://news.ycombinator.com/item?id=3788290",
+        "date": "2012-04-02T14:36:12Z"
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"Sprockets and Webpacker Duality\" \u2014 8 points, 0 comments",
+        "url": "https://news.ycombinator.com/item?id=28524855",
+        "date": "2021-09-14T13:56:14Z"
+      }
+    ]
+  },
+  {
+    "name": "Ellipsis",
+    "slug": "ellipsis",
+    "website": "https://ellipsis.dev",
+    "one_liner": "Cloud platform for coding agents",
+    "description": "Ellipsis is a cloud platform that allows engineering teams to deploy fleets of coding agents. Each agent gets an isolated sandbox, scoped permissions, and hard budget caps. Full observability included. Get started with a $100 credit at www.ellipsis.dev.\r\n\r\nYou can deploy agents for feature development, code review, and workflow automation. Creating an agent is simple: simply commit a YAML file to Github. Spawn agents from Github/Linear/Slack/etc., or via a REST API or our CLI. \r\n\r\nOrganizations get full observability and governance of their cloud coding agents.  Agent session logs are downloadable so companies own their own data.\r\n\r\nFull documentation: https://www.ellipsis.dev/docs",
+    "founders": [],
+    "team_signal": "Team size 2",
+    "tags": [
+      "Engineering, Product and Design",
+      "B2B",
+      "AI",
+      "Artificial Intelligence",
+      "Developer Tools",
+      "Machine Learning"
+    ],
+    "sources": [
+      "yc"
+    ],
+    "source_urls": [
+      "https://www.ycombinator.com/companies/ellipsis"
+    ],
+    "traction_signals": [
+      {
+        "type": "yc_batch",
+        "label": "YC batch W24",
+        "url": "https://www.ycombinator.com/companies/ellipsis",
+        "date": null
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"Show HN: Ellipsis \u2013 Automated PR reviews and bug fixes\" \u2014 121 points, 64 comments",
+        "url": "https://news.ycombinator.com/item?id=40309719",
+        "date": "2024-05-09T16:14:47Z"
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"CSS \"text-overflow: ellipsis;\" finally landed in Gecko\" \u2014 88 points, 27 comments",
+        "url": "https://news.ycombinator.com/item?id=2691598",
+        "date": "2011-06-24T09:39:47Z"
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"The History of the Ellipsis, from Medieval Subpuncting to Irrational Numbers\" \u2014 46 points, 3 comments",
+        "url": "https://news.ycombinator.com/item?id=12324927",
+        "date": "2016-08-20T02:48:43Z"
+      }
+    ]
+  },
+  {
+    "name": "superglue",
+    "slug": "superglue",
+    "website": "https://superglue.ai/",
+    "one_liner": "connect, migrate and implement enterprise systems",
+    "description": "superglue learns how your systems work from your company's knowledge and performs the implementation that normally requires human coordination and engineering work.\r\n\r\nImplement NetSuite, Sage Intacct, SAP, Business Central or Acumatica in days. Agents map and migrate legacy data, configure the system, and keep data in sync post go-live.\r\nConnect ERP, CRM, databases, and internal systems to AI platforms like Claude. Create governed data access for AI agents and track data usage across your org.\r\nConnect customer systems, import historical data and get new integrations live in hours. Let agents manage the entire implementation process end-to-end.\r\n",
+    "founders": [],
+    "team_signal": "Team size 6",
+    "tags": [
+      "Engineering, Product and Design",
+      "B2B",
+      "Enterprise Software",
+      "AI",
+      "Enterprise",
+      "Open Source",
+      "API"
+    ],
+    "sources": [
+      "yc"
+    ],
+    "source_urls": [
+      "https://www.ycombinator.com/companies/superglue"
+    ],
+    "traction_signals": [
+      {
+        "type": "yc_batch",
+        "label": "YC batch W25",
+        "url": "https://www.ycombinator.com/companies/superglue",
+        "date": null
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"Google T5 scores 88.9 on SuperGLUE Benchmark, approaching human baseline\" \u2014 303 points, 235 comments",
+        "url": "https://news.ycombinator.com/item?id=21350290",
+        "date": "2019-10-24T23:38:07Z"
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"Show HN: Superglue \u2013 open source API connector that writes its own code\" \u2014 198 points, 48 comments",
+        "url": "https://news.ycombinator.com/item?id=43196374",
+        "date": "2025-02-27T17:20:22Z"
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"AWS Superglue Vulnerability\" \u2014 43 points, 5 comments",
+        "url": "https://news.ycombinator.com/item?id=29923004",
+        "date": "2022-01-13T16:48:43Z"
+      }
+    ]
+  },
+  {
+    "name": "Rocketable",
+    "slug": "rocketable",
+    "website": "https://www.rocketable.com",
+    "one_liner": "The AI Maximalist Software Holding Company",
+    "description": "Rocketable is building a large portfolio of wildly profitable software businesses by acquiring existing products and replacing human teams with AI agents.\r\n\r\nToday\u2019s foundation models already possess enough intelligence to automate most of the tasks required to run a profitable software business. In the functions where agents aren\u2019t yet intelligent enough to replace humans, they will be soon.\r\n\r\nWhen every human function required to operate a software product has an AI agent equivalent, the next step will be within reach: operating an entire company with a team of AI agents instead of humans.\r\n\r\nBut superintelligent agents within each function won\u2019t be enough. To operate a software company with 0 human employees, the agents will need to be directed towards common goals, integrated to collaborate across functions, tuned with feedback loops connected to product metrics, and trained to make resource allocation decisions.\r\n\r\nWe are creating the tools needed to replace the entire org chart of a software company with a team of AI agents. We are developing these tools by owning the products that we automate, because we know from 10+ years of experience building automated systems with AI/ML that integration is the key to unlocking superhuman performance.",
+    "founders": [],
+    "team_signal": "Team size 2",
+    "tags": [
+      "B2B"
+    ],
+    "sources": [
+      "yc"
+    ],
+    "source_urls": [
+      "https://www.ycombinator.com/companies/rocketable"
+    ],
+    "traction_signals": [
+      {
+        "type": "yc_batch",
+        "label": "YC batch W25",
+        "url": "https://www.ycombinator.com/companies/rocketable",
+        "date": null
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"Rocketable: Buy companies and fire all their employees (YC W25)\" \u2014 1 points, 2 comments",
+        "url": "https://news.ycombinator.com/item?id=46139111",
+        "date": "2025-12-03T19:49:36Z"
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"The AI Maximalist Software Holding Company\" \u2014 1 points, 0 comments",
+        "url": "https://news.ycombinator.com/item?id=42816802",
+        "date": "2025-01-24T20:50:39Z"
+      }
+    ]
+  },
+  {
+    "name": "GlitchWard",
+    "slug": "glitchward",
+    "website": "https://glitchward.com",
+    "one_liner": "Active defense and CIS hardening for neglected SMB servers",
+    "description": "",
+    "founders": [],
+    "team_signal": "",
+    "tags": [],
+    "sources": [
+      "hn"
+    ],
+    "source_urls": [
+      "https://news.ycombinator.com/item?id=46793799",
+      "https://glitchward.com"
+    ],
+    "traction_signals": [
+      {
+        "type": "hn_show_hn",
+        "label": "Show HN: 1 points, 1 comments",
+        "url": "https://news.ycombinator.com/item?id=46793799",
+        "date": "2026-01-28T11:04:15Z"
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"Show HN: GlitchWard \u2013 Active defense and CIS hardening for neglected SMB servers\" \u2014 1 points, 1 comments",
+        "url": "https://news.ycombinator.com/item?id=46793799",
+        "date": "2026-01-28T11:04:15Z"
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"Show HN: LLM Shield (Prompt Injection protection for developers)\" \u2014 1 points, 0 comments",
+        "url": "https://news.ycombinator.com/item?id=46871424",
+        "date": "2026-02-03T14:31:34Z"
+      }
+    ]
+  },
+  {
+    "name": "Proxis",
+    "slug": "proxis",
+    "website": "https://www.proxis.ai/",
+    "one_liner": "The platform for enterprise AI agent automations, starting with email.",
+    "description": "Proxis is the AI automation platform\u00a0built for enterprises.\r\n\r\nProxis is creating AI email agents that empower brands and enterprise teams to close deals automatically. Think: your inbox, on autopilot.\r\n\r\nWe initially fine tuned and distilled LLMs for enterprise use\u2014and quickly realized that companies need more than just smarter models. They need full-stack automation. So Proxis built AI agents that handle the tedious, time-consuming work\u2014everything from autonomous sales closers to\u00a0customer service agents.\r\n\r\nThe mission is bold: to build the world\u2019s most capable team of AI agents for every enterprise. Proxis imagines a future where a single founder can run a billion-dollar company\u2014backed by a custom-built army of agents. Proxis is rethinking how agents are built, trained, and deployed from the ground up.",
+    "founders": [],
+    "team_signal": "Team size 3",
+    "tags": [
+      "Productivity",
+      "B2B",
+      "SaaS",
+      "AI",
+      "Email"
+    ],
+    "sources": [
+      "yc"
+    ],
+    "source_urls": [
+      "https://www.ycombinator.com/companies/proxis"
+    ],
+    "traction_signals": [
+      {
+        "type": "yc_batch",
+        "label": "YC batch S24",
+        "url": "https://www.ycombinator.com/companies/proxis",
+        "date": null
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"Go See Proxistant Vision at Sfmcd\" \u2014 1 points, 0 comments",
+        "url": "https://news.ycombinator.com/item?id=34437038",
+        "date": "2023-01-19T05:31:36Z"
+      }
+    ]
+  },
+  {
+    "name": "Truffle AI",
+    "slug": "truffle-ai",
+    "website": "https://www.trytruffle.ai/",
+    "one_liner": "AWS for AI Agents",
+    "description": "Truffle AI makes it easy for developers to integrate AI agents into any software application. We do this by exposing agents as simple APIs that can be called from anywhere. Developers have used Truffle to add customer support agents into WhatsApp and analytics agents into Slack.",
+    "founders": [],
+    "team_signal": "Team size 2",
+    "tags": [
+      "Generative AI",
+      "Engineering, Product and Design",
+      "B2B",
+      "Infrastructure",
+      "Artificial Intelligence",
+      "Developer Tools",
+      "AI Assistant"
+    ],
+    "sources": [
+      "yc"
+    ],
+    "source_urls": [
+      "https://www.ycombinator.com/companies/truffle-ai"
+    ],
+    "traction_signals": [
+      {
+        "type": "yc_batch",
+        "label": "YC batch W25",
+        "url": "https://www.ycombinator.com/companies/truffle-ai",
+        "date": null
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"Show HN: Truffle AI \u2013 No-Code Serverless AI Agents Platform\" \u2014 2 points, 0 comments",
+        "url": "https://news.ycombinator.com/item?id=42084404",
+        "date": "2024-11-08T05:23:30Z"
+      }
+    ]
+  },
+  {
+    "name": "Portal (SPC F25)",
+    "slug": "portal-spc-f25",
+    "website": "https://www.makeportals.com/",
+    "one_liner": "Try products with browser session sandboxes",
+    "description": "",
+    "founders": [],
+    "team_signal": "",
+    "tags": [],
+    "sources": [
+      "hn"
+    ],
+    "source_urls": [
+      "https://news.ycombinator.com/item?id=47340686",
+      "https://www.makeportals.com/"
+    ],
+    "traction_signals": [
+      {
+        "type": "hn_show_hn",
+        "label": "Show HN: 5 points, 0 comments",
+        "url": "https://news.ycombinator.com/item?id=47340686",
+        "date": "2026-03-11T20:07:44Z"
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"Show HN: Portal (SPC F25) \u2013 Try products with browser session sandboxes\" \u2014 5 points, 0 comments",
+        "url": "https://news.ycombinator.com/item?id=47340686",
+        "date": "2026-03-11T20:07:44Z"
+      }
+    ]
+  }
+]
