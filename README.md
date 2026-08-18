@@ -9,9 +9,10 @@ python -m app.cli run --topic "AI agents for SMBs"
 ```
 
 That's the whole interface. It writes `outputs/<topic-slug>/{candidates.json,
-analysis/*.json, memos/*.md}` — all committed to this repo so you can read
+analysis/*.json, memos/*.html}` — all committed to this repo so you can read
 the results without re-running anything. Start at
-[`outputs/ai-agents-for-smbs/memos/index.md`](outputs/ai-agents-for-smbs/memos/index.md).
+[`outputs/ai-agents-for-smbs/memos/index.html`](outputs/ai-agents-for-smbs/memos/index.html)
+(open it in a browser — GitHub will render it as source, not as a page).
 
 See [`PROCESS.md`](PROCESS.md) for how this was built and worked on with AI.
 
@@ -73,7 +74,7 @@ produced its score.
 app/
   sourcing/       # YC directory + HN Algolia + Product Hunt -> candidates.json
   analysis/       # one structured OpenAI call per candidate -> analysis/*.json
-  recommendation/ # deterministic Jinja2 render of analysis -> memos/*.md
+  recommendation/ # deterministic Jinja2 render of analysis -> memos/*.html
   pipeline.py     # orchestrates the three stages — the only place they connect
   cli.py          # `python -m app.cli run --topic ...`
   main.py         # FastAPI wrapper around the same pipeline

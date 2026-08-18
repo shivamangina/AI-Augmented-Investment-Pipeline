@@ -1,7 +1,7 @@
 """Single source of truth for the investment thesis and scoring rubric.
 
 Both the analysis prompt (app/analysis/prompts.py) and the memo template
-(app/recommendation/memo_template.md.j2) pull from here, so the thesis is
+(app/recommendation/memo_template.html) pull from here, so the thesis is
 stated once and applied consistently everywhere it's used.
 """
 

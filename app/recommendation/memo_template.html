@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ analysis.name }} — {{ analysis.call }}</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<a class="back-link" href="index.html">&larr; Back to index</a>
+
+<h1>{{ analysis.name }} <span class="badge {{ call_class }}">{{ analysis.call }}</span></h1>
+<p class="meta">
+  <span class="score">{{ analysis.score }}/100</span> ·
+  {% if analysis.website %}<a href="{{ analysis.website }}">{{ analysis.website }}</a>{% else %}no website found{% endif %}
+  <br>{{ thesis_name }} · Generated {{ analysis.generated_at[:10] }}
+</p>
+
+<div class="call-box">
+  <p><strong>{{ analysis.call }}</strong> — {{ call_rationale }}</p>
+</div>
+
+<h2>What would change this call</h2>
+<ol class="mind-changers">
+{% for item in analysis.mind_changers %}
+  <li>{{ item }}</li>
+{% endfor %}
+</ol>
+
+<h2>Score breakdown</h2>
+<table class="breakdown">
+  <thead>
+    <tr><th>Dimension</th><th class="num">Score</th><th class="num">Weight</th><th class="num">Contribution</th></tr>
+  </thead>
+  <tbody>
+  {% for row in breakdown %}
+    <tr>
+      <td>
+        {{ row.label }}
+        <div class="bar-track"><div class="bar-fill" style="width: {{ row.score }}%"></div></div>
+      </td>
+      <td class="num">{{ row.score }}</td>
+      <td class="num">{{ row.weight_pct }}%</td>
+      <td class="num">{{ row.contribution }}</td>
+    </tr>
+  {% endfor %}
+    <tr class="total"><td colspan="3">Total</td><td class="num">{{ analysis.score }}</td></tr>
+  </tbody>
+</table>
+
+<h2>Team</h2>
+<p>{{ analysis.team }}</p>
+
+<h2>Product</h2>
+<p>{{ analysis.product }}</p>
+
+<h2>Market</h2>
+<p>{{ analysis.market }}</p>
+
+<h2>Risks / open questions</h2>
+<ul class="risks">
+{% for risk in analysis.risks %}
+  <li>{{ risk }}</li>
+{% endfor %}
+</ul>
+
+<h2>Sources</h2>
+<ul class="sources">
+{% for url in analysis.source_urls %}
+  <li><a href="{{ url }}">{{ url }}</a></li>
+{% endfor %}
+</ul>
+
+</main>
+</body>
+</html>

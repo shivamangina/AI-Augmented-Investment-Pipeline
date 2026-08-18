@@ -26,15 +26,27 @@ def _make_analysis(name="InvoiceAgent", score_overrides=None) -> Analysis:
 def test_render_memo_includes_key_sections():
     memo = render_memo(_make_analysis())
 
-    assert "# InvoiceAgent — WATCH" in memo
-    assert "**Score: 69.0/100**" in memo
+    assert "<title>InvoiceAgent — Watch</title>" in memo
+    assert '<span class="badge watch">Watch</span>' in memo
+    assert "69.0/100" in memo
     assert "Automates SMB invoicing end to end" in memo
     assert "Depends on third-party accounting API access" in memo
     assert "Evidence of paying customers" in memo
-    assert "https://ycombinator.com/companies/invoiceagent" in memo
-    # score breakdown table reflects the actual sub-scores, not just the total
-    assert "| Team | 40" in memo
-    assert "| Product | 90" in memo
+    assert 'href="https://ycombinator.com/companies/invoiceagent"' in memo
+    # score breakdown reflects the actual sub-scores, not just the total
+    assert '<td class="num">40.0</td>' in memo  # team
+    assert '<td class="num">90.0</td>' in memo  # product
+
+
+def test_render_memo_escapes_llm_text():
+    analysis = _make_analysis()
+    analysis = analysis.model_copy(
+        update={"team": "Founders came from <script>alert(1)</script> Acme."}
+    )
+    memo = render_memo(analysis)
+
+    assert "<script>alert(1)</script>" not in memo
+    assert "&lt;script&gt;" in memo
 
 
 def test_render_memo_claims_trace_to_source_urls():
@@ -42,7 +54,7 @@ def test_render_memo_claims_trace_to_source_urls():
     memo = render_memo(analysis)
 
     for url in analysis.source_urls:
-        assert url in memo
+        assert f'href="{url}"' in memo
 
 
 def test_render_index_sorts_by_score_descending():
@@ -54,4 +66,5 @@ def test_render_index_sorts_by_score_descending():
     index = render_index([low, high])
 
     assert index.index("HighScorer") < index.index("LowScorer")
-    assert "| 95.0 | Take a meeting | HighScorer" in index
+    assert '<span class="badge take-a-meeting">Take a meeting</span>' in index
+    assert 'href="highscorer.html"' in index or 'href="invoiceagent.html"' in index

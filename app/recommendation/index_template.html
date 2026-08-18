@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ thesis_name }} — Memo Index</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<h1>{{ thesis_name }}</h1>
+<p class="subtitle">{{ rows|length }} companies analyzed.</p>
+
+<table class="index">
+  <thead>
+    <tr><th class="num">Score</th><th>Call</th><th>Company</th><th>Snapshot</th></tr>
+  </thead>
+  <tbody>
+  {% for row in rows %}
+    <tr>
+      <td class="num score">{{ row.score }}</td>
+      <td><span class="badge {{ row.call_class }}">{{ row.call }}</span></td>
+      <td><a href="{{ row.slug }}.html">{{ row.name }}</a></td>
+      <td class="snapshot">{{ row.snapshot }}</td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+
+</main>
+</body>
+</html>

@@ -1,6 +1,6 @@
 """The one-command entrypoint: python -m app.cli run --topic "AI agents for SMBs"
 
-Writes outputs/<topic-slug>/{candidates.json, analysis/*.json, memos/*.md}.
+Writes outputs/<topic-slug>/{candidates.json, analysis/*.json, memos/*.html}.
 """
 
 import argparse
@@ -65,7 +65,7 @@ def main(argv: list[str] | None = None) -> int:
         return 1
 
     print(f"\n{len(result.analyses)} memos written to {result.memos_dir}/")
-    print(f"Start here: {result.memos_dir}/index.md\n")
+    print(f"Start here: {result.memos_dir}/index.html\n")
     ranked = sorted(result.analyses, key=lambda a: a.score, reverse=True)
     for a in ranked:
         print(f"  {a.score:>5.1f}  {a.call:<15}  {a.name}")
