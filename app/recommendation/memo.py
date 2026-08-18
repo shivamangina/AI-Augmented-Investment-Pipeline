@@ -1,5 +1,5 @@
 import logging
-import shutil
+import zlib
 from pathlib import Path
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
@@ -21,6 +21,24 @@ _env = Environment(
 )
 _MEMO_TEMPLATE = _env.get_template("memo_template.html")
 _INDEX_TEMPLATE = _env.get_template("index_template.html")
+
+# Inlined into every page's <style> tag rather than linked, so each memo is a
+# single self-contained file that renders correctly regardless of viewer
+# (IDE preview panes, in particular, often don't resolve a sibling stylesheet
+# via a relative <link href>).
+_CSS = (_STATIC_DIR / "memo.css").read_text()
+
+# Fixed hue rotation (not random) so the same company always gets the same
+# avatar color across regenerated runs — keeps diffs stable.
+_AVATAR_HUES = [210, 265, 15, 165, 320, 45, 190, 350]
+
+
+def _avatar_style(name: str) -> str:
+    # zlib.crc32, not the builtin hash() — Python randomizes str hashing per
+    # process by default, which would shuffle avatar colors on every run.
+    digest = zlib.crc32(name.encode())
+    hue = _AVATAR_HUES[digest % len(_AVATAR_HUES)]
+    return f"background: hsl({hue}, 60%, 45%)"
 
 _DIMENSION_LABELS = {
     "team": "Team",
@@ -89,6 +107,7 @@ def render_memo(analysis: Analysis) -> str:
         call_rationale=_call_rationale(analysis),
         call_class=_call_class(analysis.call),
         breakdown=_breakdown_rows(analysis),
+        css=_CSS,
     )
 
 
@@ -106,19 +125,19 @@ def render_index(analyses: list[Analysis]) -> str:
             "call_class": _call_class(a.call),
             "slug": a.slug,
             "name": a.name,
+            "initial": a.name[:1].upper(),
+            "avatar_style": _avatar_style(a.name),
             "snapshot": _snippet(a.product),
         }
         for a in ranked
     ]
-    return _INDEX_TEMPLATE.render(thesis_name=THESIS_NAME, rows=rows)
+    return _INDEX_TEMPLATE.render(thesis_name=THESIS_NAME, rows=rows, css=_CSS)
 
 
 def write_memos(topic: str, analyses: list[Analysis]) -> Path:
     settings = get_settings()
     memos_dir = Path(settings.output_dir) / slugify(topic) / "memos"
     memos_dir.mkdir(parents=True, exist_ok=True)
-
-    shutil.copyfile(_STATIC_DIR / "memo.css", memos_dir / "style.css")
 
     for analysis in analyses:
         (memos_dir / f"{analysis.slug}.html").write_text(render_memo(analysis))

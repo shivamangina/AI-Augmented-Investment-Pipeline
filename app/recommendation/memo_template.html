@@ -4,11 +4,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{ analysis.name }} — {{ analysis.call }}</title>
-<link rel="stylesheet" href="style.css">
+<style>{{ css|safe }}</style>
 </head>
 <body>
 <main>
 <a class="back-link" href="index.html">&larr; Back to index</a>
+
+<div class="card">
+<div class="memo-body">
 
 <h1>{{ analysis.name }} <span class="badge {{ call_class }}">{{ analysis.call }}</span></h1>
 <p class="meta">
@@ -71,6 +74,9 @@
   <li><a href="{{ url }}">{{ url }}</a></li>
 {% endfor %}
 </ul>
+
+</div>
+</div>
 
 </main>
 </body>

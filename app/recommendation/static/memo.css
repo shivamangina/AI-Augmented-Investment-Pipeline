@@ -1,26 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
 :root {
+  --page-bg: #f2f3f5;
   --bg: #ffffff;
   --bg-subtle: #f6f7f8;
+  --header-bg: #fafafa;
   --text: #1b1e22;
   --text-muted: #5c6470;
-  --border: #e3e6ea;
+  --border: #e6e8eb;
   --accent: #2f6fed;
+  --shadow: 0 1px 2px rgba(16, 24, 40, 0.04), 0 8px 24px rgba(16, 24, 40, 0.06);
   --pass-bg: #eceef1;
   --pass-text: #55606c;
-  --watch-bg: #fff4d6;
-  --watch-text: #8a5b00;
-  --meeting-bg: #dcf5e3;
-  --meeting-text: #157347;
+  --watch-bg: #fef3c7;
+  --watch-text: #92660a;
+  --meeting-bg: #dcfce7;
+  --meeting-text: #15803d;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #14161a;
-    --bg-subtle: #1c1f24;
+    --page-bg: #0c0d0f;
+    --bg: #17191d;
+    --bg-subtle: #1f2227;
+    --header-bg: #1b1e22;
     --text: #e8eaed;
     --text-muted: #9aa2ad;
     --border: #2b2f36;
     --accent: #6f9dff;
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 8px 24px rgba(0, 0, 0, 0.35);
     --pass-bg: #23262b;
     --pass-text: #a7afba;
     --watch-bg: #3a2f10;
@@ -35,14 +43,14 @@
 body {
   margin: 0;
   padding: 2.5rem 1.5rem 4rem;
-  background: var(--bg);
+  background: var(--page-bg);
   color: var(--text);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
   line-height: 1.55;
 }
 
 main {
-  max-width: 760px;
+  max-width: 820px;
   margin: 0 auto;
 }
 
@@ -74,13 +82,15 @@ h2 {
 .meta a { color: var(--text-muted); }
 
 .badge {
-  display: inline-block;
-  padding: 0.15rem 0.65rem;
+  display: inline-flex;
+  align-items: center;
+  padding: 0.25rem 0.75rem;
   border-radius: 999px;
-  font-size: 0.85rem;
-  font-weight: 600;
+  font-size: 0.78rem;
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.03em;
+  white-space: nowrap;
 }
 
 .badge.pass { background: var(--pass-bg); color: var(--pass-text); }
@@ -153,24 +163,73 @@ ul.sources a { color: var(--accent); word-break: break-all; }
 
 .back-link:hover { color: var(--accent); }
 
+.card {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.card .memo-body { padding: 0.5rem 1.6rem 1.8rem; }
+
 /* index page */
+.subtitle { color: var(--text-muted); margin-top: 0; }
+
 table.index {
   width: 100%;
   border-collapse: collapse;
   font-size: 0.92rem;
 }
 
-table.index th, table.index td {
+table.index thead th {
   text-align: left;
-  padding: 0.55rem 0.6rem;
+  padding: 0.8rem 1.2rem;
+  background: var(--header-bg);
+  color: var(--text-muted);
+  font-weight: 600;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
   border-bottom: 1px solid var(--border);
-  vertical-align: top;
 }
 
-table.index th { color: var(--text-muted); font-weight: 600; }
-table.index td.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
-table.index td.snapshot { color: var(--text-muted); }
-table.index a { color: var(--accent); text-decoration: none; font-weight: 600; }
-table.index a:hover { text-decoration: underline; }
+table.index td {
+  padding: 0.85rem 1.2rem;
+  border-bottom: 1px solid var(--border);
+  vertical-align: middle;
+}
 
-.subtitle { color: var(--text-muted); margin-top: 0; }
+table.index tbody tr:last-child td { border-bottom: none; }
+table.index tbody tr:hover { background: var(--bg-subtle); }
+
+table.index td.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+table.index td.snapshot { color: var(--text-muted); max-width: 360px; }
+table.index th.num { text-align: right; }
+
+.company-cell {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+}
+
+.avatar {
+  flex: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+
+table.index a {
+  color: var(--text);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+table.index a:hover { color: var(--accent); text-decoration: underline; }
