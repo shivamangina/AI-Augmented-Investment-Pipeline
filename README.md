@@ -38,10 +38,9 @@ python -m app.cli run --topic "AI agents for SMBs" --limit 15
 # Re-render memos from already-committed analysis (no API calls at all)
 python -m app.cli run --topic "AI agents for SMBs" --skip-sourcing --skip-analysis
 
-# As an HTTP service instead of a CLI
+# Serve the generated memos over HTTP instead of opening the files directly
 uvicorn app.main:app --reload
-curl -X POST localhost:8000/pipeline/run -H "content-type: application/json" \
-  -d '{"topic": "AI agents for SMBs", "limit": 15}'
+# then browse http://localhost:8000/memos/ai-agents-for-smbs/memos/index.html
 ```
 
 ## Tests

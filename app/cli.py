@@ -7,6 +7,7 @@ import argparse
 import asyncio
 import logging
 import sys
+from pathlib import Path
 
 from app.pipeline import run_pipeline
 
@@ -39,7 +40,23 @@ def _build_parser() -> argparse.ArgumentParser:
     run.add_argument(
         "-v", "--verbose", action="store_true", help="Debug-level logging."
     )
+    run.add_argument(
+        "--serve",
+        action="store_true",
+        help="Start the HTTP server (serving outputs/) after the run finishes.",
+    )
     return parser
+
+
+def _serve(memos_dir: Path) -> None:
+    import uvicorn
+
+    from app.main import OUTPUTS_DIR, app
+
+    rel = memos_dir.resolve().relative_to(OUTPUTS_DIR.resolve())
+    url = f"http://127.0.0.1:8000/memos/{rel.as_posix()}/index.html"
+    print(f"Serving at {url}  (Ctrl+C to stop)\n")
+    uvicorn.run(app, host="127.0.0.1", port=8000)
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -69,6 +86,10 @@ def main(argv: list[str] | None = None) -> int:
     ranked = sorted(result.analyses, key=lambda a: a.score, reverse=True)
     for a in ranked:
         print(f"  {a.score:>5.1f}  {a.call:<15}  {a.name}")
+
+    if args.serve:
+        _serve(result.memos_dir)
+
     return 0
 
 
