@@ -15,6 +15,7 @@ import httpx
 
 from app.config import get_settings
 from app.models import Candidate, TractionSignal
+from app.sourcing.relevance import expand_keywords, score_relevance
 from app.util import slugify
 
 logger = logging.getLogger(__name__)
@@ -53,7 +54,7 @@ async def fetch_candidates(topic: str, limit: int = 10) -> list[Candidate]:
         )
         return []
 
-    keywords = [w.lower() for w in topic.split() if len(w) > 2]
+    keywords = expand_keywords(topic)
 
     try:
         async with httpx.AsyncClient() as client:
@@ -91,8 +92,8 @@ async def fetch_candidates(topic: str, limit: int = 10) -> list[Candidate]:
                 node.get("description") or "",
                 " ".join(topics),
             ]
-        ).lower()
-        score = sum(haystack.count(kw) for kw in keywords)
+        )
+        score = score_relevance(haystack, keywords)
         if score > 0:
             scored.append((node, topics, score))
 

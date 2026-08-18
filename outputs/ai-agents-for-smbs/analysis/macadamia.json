@@ -1,0 +1,30 @@
+{
+  "name": "Macadamia",
+  "slug": "macadamia",
+  "website": "https://macadamialabs.com",
+  "team": "The team size is 2, but there is no information available about the founders or their backgrounds. This lack of detail raises concerns about their technical depth and domain expertise in the specific SMB vertical being targeted.",
+  "product": "Macadamia aims to automate engineering and business processes for complex engineering projects. However, the description lacks specificity regarding a concrete, named workflow being automated. While it mentions integration with engineering data sources and third-party tools, there is no evidence provided of genuine agentic behavior or real usage metrics such as traction or retention signals.",
+  "market": "The target market includes mechanical engineering, manufacturing, and construction, which are sizable segments. However, the competitive landscape is not discussed, and there is no mention of how crowded it is or if incumbents might replicate their offering. The 'why now' argument related to recent LLM capabilities is also absent.",
+  "risks": [
+    "Lack of clarity on specific workflows being automated raises concerns about the product's focus and effectiveness.",
+    "No evidence of traction or customer engagement, which could indicate a lack of market validation.",
+    "The small team size (2) without founder information presents a risk regarding their ability to execute and scale the product effectively."
+  ],
+  "mind_changers": [
+    "Evidence of a specific, named workflow being automated that demonstrates genuine agentic behavior.",
+    "Details about the founders' backgrounds, particularly any relevant experience in engineering or AI.",
+    "Demonstrated traction or early customer feedback indicating product-market fit."
+  ],
+  "sub_scores": {
+    "team": 40.0,
+    "product": 30.0,
+    "market": 60.0,
+    "risk_adjustment": 30.0
+  },
+  "score": 40.0,
+  "call": "Pass",
+  "source_urls": [
+    "https://www.ycombinator.com/companies/macadamia"
+  ],
+  "generated_at": "2026-08-18T16:44:23.629853+00:00"
+}

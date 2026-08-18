@@ -7,11 +7,11 @@ keyword overlap with the topic query.
 """
 
 import logging
-import re
 
 import httpx
 
 from app.models import Candidate, TractionSignal
+from app.sourcing.relevance import expand_keywords, score_relevance
 from app.util import slugify
 
 logger = logging.getLogger(__name__)
@@ -22,28 +22,6 @@ YC_API_URL = "https://api.ycombinator.com/v0.1/companies"
 # topic-relevant matches. Newest first so freshness is naturally favored.
 DEFAULT_BATCHES = ["W25", "S24", "W24"]
 
-_STOPWORDS = {
-    "a",
-    "an",
-    "the",
-    "for",
-    "of",
-    "and",
-    "to",
-    "in",
-    "on",
-    "with",
-    "startups",
-    "startup",
-    "companies",
-    "company",
-}
-
-
-def _keywords(topic: str) -> list[str]:
-    words = re.findall(r"[a-z0-9]+", topic.lower())
-    return [w for w in words if w not in _STOPWORDS and len(w) > 2]
-
 
 def _relevance(company: dict, keywords: list[str]) -> int:
     haystack = " ".join(
@@ -53,8 +31,8 @@ def _relevance(company: dict, keywords: list[str]) -> int:
             " ".join(company.get("tags") or []),
             " ".join(company.get("industries") or []),
         ]
-    ).lower()
-    return sum(haystack.count(kw) for kw in keywords)
+    )
+    return score_relevance(haystack, keywords)
 
 
 async def _fetch_batch(client: httpx.AsyncClient, batch: str) -> list[dict]:
@@ -84,7 +62,7 @@ async def fetch_candidates(
     doesn't take down the whole sourcing stage.
     """
     batches = batches or DEFAULT_BATCHES
-    keywords = _keywords(topic)
+    keywords = expand_keywords(topic)
 
     all_companies: list[dict] = []
     try:

@@ -1,0 +1,30 @@
+{
+  "name": "Butter",
+  "slug": "butter",
+  "website": "https://butter.dev",
+  "team": "The team size is 2, but there is no information available about the founders or their backgrounds. This lack of detail raises concerns about their technical depth and domain expertise.",
+  "product": "Butter is building bVisor, a lightweight sandbox runtime for AI agents. However, the description does not specify a concrete, recurring SMB workflow being automated or whether the product demonstrates genuine agentic behavior. There is no evidence of real usage or traction provided in the data.",
+  "market": "The product targets the infrastructure space for AI agents, which could be relevant for SMBs, but the specific SMB segment is not clearly defined. The competitive landscape is unclear, and there is no mention of a credible why-now argument tied to recent LLM capability jumps.",
+  "risks": [
+    "Lack of clarity on the specific SMB workflow being automated raises questions about product-market fit.",
+    "No evidence of traction or usage signals, which could indicate a lack of demand or interest in the product.",
+    "The absence of founder information creates uncertainty about the team's capability to execute on the vision."
+  ],
+  "mind_changers": [
+    "Information about the founders' backgrounds and their relevant experience in AI or infrastructure.",
+    "Evidence of early adopters or pilot customers using bVisor in real-world scenarios.",
+    "A clear articulation of a specific SMB workflow that bVisor automates effectively."
+  ],
+  "sub_scores": {
+    "team": 40.0,
+    "product": 30.0,
+    "market": 50.0,
+    "risk_adjustment": 30.0
+  },
+  "score": 37.5,
+  "call": "Pass",
+  "source_urls": [
+    "https://www.ycombinator.com/companies/butter"
+  ],
+  "generated_at": "2026-08-18T16:44:17.161985+00:00"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Trava",
+  "slug": "trava",
+  "website": "https://www.usetrava.com/",
+  "team": "The team size is 1, but no specific information about the founder's background or expertise is provided. This raises concerns about the technical depth and domain expertise required to build a reliable AI agent for global trade compliance.",
+  "product": "Trava aims to automate the workflow of auditing customs entries and classifying imports to prevent duty overpayments and filing errors. This is a concrete, recurring pain point for importers. However, there is no evidence provided of real usage or traction, such as customer feedback or retention signals, which raises questions about the product's current effectiveness and adoption.",
+  "market": "The global trade compliance market is significant, as importers face substantial financial losses due to compliance issues. However, the competitive landscape is not detailed, and there is no mention of how Trava differentiates itself from potential incumbents or existing solutions. The 'why now' argument is somewhat implied by the need for automation in compliance, but it lacks a direct connection to recent LLM capabilities.",
+  "risks": [
+    "The single founder raises concerns about the team's ability to execute and scale the product effectively.",
+    "Lack of evidence for traction or customer engagement could indicate a high risk of market entry failure.",
+    "Dependence on LLM capabilities without clear differentiation could lead to replication by larger incumbents or competitors. This could undermine Trava's long-term viability. "
+  ],
+  "mind_changers": [
+    "Evidence of initial customer engagement or pilot programs demonstrating the effectiveness of the AI agents.",
+    "Details about the founder's background in trade compliance or AI development that would bolster confidence in the team's capability.",
+    "Clear differentiation strategies that show how Trava plans to protect against incumbent competition. "
+  ],
+  "sub_scores": {
+    "team": 30.0,
+    "product": 50.0,
+    "market": 60.0,
+    "risk_adjustment": 40.0
+  },
+  "score": 45.5,
+  "call": "Pass",
+  "source_urls": [
+    "https://www.ycombinator.com/companies/trava"
+  ],
+  "generated_at": "2026-08-18T16:44:21.220829+00:00"
+}

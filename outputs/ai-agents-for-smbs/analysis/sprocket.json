@@ -1,0 +1,31 @@
+{
+  "name": "Sprocket",
+  "slug": "sprocket",
+  "website": "https://sprocket-demo.spikonado.com",
+  "team": "No information about the founders or their backgrounds is available. Therefore, it is unclear if the team has the technical depth or domain expertise necessary to build a reliable AI agent.",
+  "product": "The product claims to be an AI agent for hardware and software development, but there is no concrete description of a specific, recurring, painful SMB workflow being automated. The lack of detail raises concerns about whether the automation is genuinely agentic or just a thin wrapper around a single LLM call. There is no evidence of real usage or traction provided in the description.",
+  "market": "The market for hardware and software development tools is significant, but the specific SMB segment being targeted is not defined. Without clarity on the target market, it is difficult to assess the reach and size. Additionally, the competitive landscape is unknown, and there is no clear why-now argument related to recent LLM capability jumps.",
+  "risks": [
+    "Lack of clarity on the specific workflow being automated raises concerns about the product's applicability to SMBs.",
+    "No information on the team's expertise or background increases the risk of execution failure.",
+    "The absence of traction signals or user engagement data suggests potential challenges in market adoption."
+  ],
+  "mind_changers": [
+    "A detailed description of a specific SMB workflow being automated would clarify the product's value proposition.",
+    "Information about the founding team and their relevant experience would provide confidence in the team's capability.",
+    "Evidence of initial user engagement or traction would indicate market interest and product viability."
+  ],
+  "sub_scores": {
+    "team": 30.0,
+    "product": 20.0,
+    "market": 40.0,
+    "risk_adjustment": 20.0
+  },
+  "score": 27.5,
+  "call": "Pass",
+  "source_urls": [
+    "https://news.ycombinator.com/item?id=49145934",
+    "https://sprocket-demo.spikonado.com"
+  ],
+  "generated_at": "2026-08-18T16:44:21.755376+00:00"
+}

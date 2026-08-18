@@ -96,6 +96,63 @@
     ]
   },
   {
+    "name": "Butter",
+    "slug": "butter",
+    "website": "https://butter.dev",
+    "one_liner": "Embedded Sandboxes for Agents",
+    "description": "Butter is building bVisor, an incredibly lightweight sandbox runtime for AI agents.\r\nIt embeds directly into your local process, providing a safe bash environment without the overhead of VMs or remote infra.",
+    "founders": [],
+    "team_signal": "Team size 2",
+    "tags": [
+      "Infrastructure",
+      "B2B"
+    ],
+    "sources": [
+      "yc"
+    ],
+    "source_urls": [
+      "https://www.ycombinator.com/companies/butter"
+    ],
+    "traction_signals": [
+      {
+        "type": "yc_batch",
+        "label": "YC batch W25",
+        "url": "https://www.ycombinator.com/companies/butter",
+        "date": null
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"Give babies peanut butter to cut peanut allergies, study says\" \u2014 746 points, 363 comments",
+        "url": "https://news.ycombinator.com/item?id=35197835",
+        "date": "2023-03-17T14:50:06Z"
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"Buttery Smooth Emacs\" \u2014 651 points, 229 comments",
+        "url": "https://news.ycombinator.com/item?id=12830206",
+        "date": "2016-10-30T15:12:24Z"
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"Please, enough with the dead butterflies (2017)\" \u2014 614 points, 210 comments",
+        "url": "https://news.ycombinator.com/item?id=27948008",
+        "date": "2021-07-25T09:56:42Z"
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"Enough with the dead butterflies\" \u2014 586 points, 163 comments",
+        "url": "https://news.ycombinator.com/item?id=14460013",
+        "date": "2017-06-01T13:24:27Z"
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"Its butterfly keyboard design has failed, but Apple has yet to admit its mistake\" \u2014 573 points, 627 comments",
+        "url": "https://news.ycombinator.com/item?id=19697122",
+        "date": "2019-04-19T04:32:23Z"
+      }
+    ]
+  },
+  {
     "name": "Roark",
     "slug": "roark",
     "website": "https://roark.ai",
@@ -104,10 +161,10 @@
     "founders": [],
     "team_signal": "Team size 3",
     "tags": [
-      "Conversational AI",
       "Analytics",
       "B2B",
-      "AI"
+      "AI",
+      "Conversational AI"
     ],
     "sources": [
       "yc"
@@ -155,179 +212,180 @@
     ]
   },
   {
-    "name": "Million",
-    "slug": "million",
-    "website": "https://million.dev",
-    "one_liner": "Tools for agent verification",
-    "description": "Remember the first time you hit  and your code actually worked? Something that didn't exist before, now alive on your screen.\r\n\r\nToday, coding agents can do that, orders of magnitude faster. But their verification is shallow at best. The faster agents generate code, the wider the gap grows. Nothing verifies software at the speed agents ship code.\r\n\r\nWe believe verification unlocks long-horizon coding agents: agents that run for days and prove their work as they go.",
+    "name": "Retrofit",
+    "slug": "retrofit",
+    "website": "https://www.retrofit.shop/",
+    "one_liner": "A vintage marketplace curated by AI",
+    "description": "Retrofit is reimagining the future of secondhand shopping.\u00a0We are a new vintage marketplace that uses AI agents to curate and personalize in-demand, trending inventory. We analyze social media trends, sales data, and personal style to find the best vintage pieces that fit an individual\u2019s unique taste, size, and budget.",
     "founders": [],
-    "team_signal": "Team size 5",
+    "team_signal": "Team size 2",
     "tags": [
-      "Engineering, Product and Design",
-      "B2B",
-      "Artificial Intelligence"
+      "Apparel and Cosmetics",
+      "Consumer"
     ],
     "sources": [
       "yc"
     ],
     "source_urls": [
-      "https://www.ycombinator.com/companies/million"
+      "https://www.ycombinator.com/companies/retrofit"
     ],
     "traction_signals": [
       {
         "type": "yc_batch",
-        "label": "YC batch W24",
-        "url": "https://www.ycombinator.com/companies/million",
+        "label": "YC batch W25",
+        "url": "https://www.ycombinator.com/companies/retrofit",
         "date": null
       },
       {
         "type": "hn_mention",
-        "label": "HN: \"The secret inside One Million Checkboxes\" \u2014 2365 points, 218 comments",
-        "url": "https://news.ycombinator.com/item?id=41395413",
-        "date": "2024-08-29T21:20:12Z"
+        "label": "HN: \"Retrofitting null-safety onto Java at Meta\" \u2014 170 points, 225 comments",
+        "url": "https://news.ycombinator.com/item?id=33706721",
+        "date": "2022-11-22T15:21:21Z"
       },
       {
         "type": "hn_mention",
-        "label": "HN: \"Instagram's Million Dollar Bug\" \u2014 1562 points, 516 comments",
-        "url": "https://news.ycombinator.com/item?id=10754194",
-        "date": "2015-12-17T20:16:56Z"
+        "label": "HN: \"Retrofitting JIT Compilers into C Interpreters\" \u2014 135 points, 26 comments",
+        "url": "https://news.ycombinator.com/item?id=47777897",
+        "date": "2026-04-15T12:00:24Z"
       },
       {
         "type": "hn_mention",
-        "label": "HN: \"The Fed says this is a cube of $1M. They're off by half a million\" \u2014 1478 points, 552 comments",
-        "url": "https://news.ycombinator.com/item?id=44435484",
-        "date": "2025-07-01T16:22:55Z"
+        "label": "HN: \"Tesla Autopilot retrofit on a classic P85 (2016)\" \u2014 134 points, 165 comments",
+        "url": "https://news.ycombinator.com/item?id=18298388",
+        "date": "2018-10-25T03:31:43Z"
       },
       {
         "type": "hn_mention",
-        "label": "HN: \"U.S. users are leaving Facebook by the millions, Edison Research says\" \u2014 1293 points, 595 comments",
-        "url": "https://news.ycombinator.com/item?id=19322448",
-        "date": "2019-03-06T20:30:37Z"
+        "label": "HN: \"Retrofitting Temporal Memory Safety on C++\" \u2014 123 points, 49 comments",
+        "url": "https://news.ycombinator.com/item?id=31762574",
+        "date": "2022-06-16T05:02:50Z"
       },
       {
         "type": "hn_mention",
-        "label": "HN: \"Facebook Stored Hundreds of Millions of User Passwords in Plain Text for Years\" \u2014 1252 points, 429 comments",
-        "url": "https://news.ycombinator.com/item?id=19453359",
-        "date": "2019-03-21T15:21:38Z"
+        "label": "HN: \"Acer Travelmate 4150 retrofitting to Raspberry Pi Laptop, Part 1\" \u2014 94 points, 48 comments",
+        "url": "https://news.ycombinator.com/item?id=13967312",
+        "date": "2017-03-27T13:02:19Z"
       }
     ]
   },
   {
-    "name": "Reprompt",
-    "slug": "reprompt",
-    "website": "https://repromptai.com",
-    "one_liner": "AI Agents for Location",
-    "description": "Reprompt builds AI Agents for Location-- Mapping companies like Radar and TomTom use our agents to get live information about a point of interest or business that keeps their maps up to date. \r\n\r\nTo do this we have an internal agents platform that supports Web, Vision, Doc Reading, and soon self-driving browser agents.",
+    "name": "Mastra",
+    "slug": "mastra",
+    "website": "https://mastra.ai",
+    "one_liner": "The Javascript framework for building AI agents, from the Gatsby devs",
+    "description": "Mastra is the easiest way to build a production AI application, built by the team that brought you Gatsby. We provide a complete set of AI primitives: workflows for complex operations, agents for autonomous decisions, RAG for knowledge integration, and evals for quality & accuracy. Mastra is open-source, modular, and built in Typescript for product developers. You can deploy Mastra on any cloud, and it gives you a straightforward syntax to solve the hardest problems building with AI: human-in-the-loop workflows, agent memory and tool selection, and output quality. ",
     "founders": [],
-    "team_signal": "Team size 3",
+    "team_signal": "Team size 30",
     "tags": [
+      "Open Source",
       "Engineering, Product and Design",
-      "B2B"
-    ],
-    "sources": [
-      "yc"
-    ],
-    "source_urls": [
-      "https://www.ycombinator.com/companies/reprompt"
-    ],
-    "traction_signals": [
-      {
-        "type": "yc_batch",
-        "label": "YC batch W24",
-        "url": "https://www.ycombinator.com/companies/reprompt",
-        "date": null
-      },
-      {
-        "type": "hn_mention",
-        "label": "HN: \"Show HN: Structured output from LLMs without reprompting\" \u2014 174 points, 54 comments",
-        "url": "https://news.ycombinator.com/item?id=36750083",
-        "date": "2023-07-16T18:30:18Z"
-      },
-      {
-        "type": "hn_mention",
-        "label": "HN: \"Show HN: Reprompt \u2013 Score your AI coding prompts with NLP papers\" \u2014 13 points, 2 comments",
-        "url": "https://news.ycombinator.com/item?id=47425249",
-        "date": "2026-03-18T13:00:13Z"
-      },
-      {
-        "type": "hn_mention",
-        "label": "HN: \"Show HN: Reprompt \u2013 Collaborative Prompt Testing\" \u2014 4 points, 0 comments",
-        "url": "https://news.ycombinator.com/item?id=35526807",
-        "date": "2023-04-11T15:45:43Z"
-      },
-      {
-        "type": "hn_mention",
-        "label": "HN: \"Show HN: Reprompt \u2013 Analyze what you type into AI tools, not what they output\" \u2014 3 points, 3 comments",
-        "url": "https://news.ycombinator.com/item?id=47589133",
-        "date": "2026-03-31T15:46:25Z"
-      },
-      {
-        "type": "hn_mention",
-        "label": "HN: \"Show HN: RePrompter \u2013 Rough prompts to structured, scored prompts\" \u2014 2 points, 1 comments",
-        "url": "https://news.ycombinator.com/item?id=46973436",
-        "date": "2026-02-11T10:51:56Z"
-      }
-    ]
-  },
-  {
-    "name": "Keystroke",
-    "slug": "keystroke",
-    "website": "http://keystroke.ai",
-    "one_liner": "An all-in-one platform for building internal agents & workflows",
-    "description": "Keystroke is an all-in-one platform for building internal agents and workflows. \r\n\r\nIt's built from the ground up with coding agents in mind. Build agents and workflows as TypeScript in your own repo, then deploy them to a web app where your whole team can use them.",
-    "founders": [],
-    "team_signal": "Team size 4",
-    "tags": [
-      "Generative AI",
-      "Workflow Automation",
-      "Automation",
-      "B2B",
+      "AI",
       "Artificial Intelligence",
-      "Developer Tools",
-      "Analytics"
+      "B2B",
+      "Developer Tools"
     ],
     "sources": [
       "yc"
     ],
     "source_urls": [
-      "https://www.ycombinator.com/companies/keystroke"
+      "https://www.ycombinator.com/companies/mastra"
     ],
     "traction_signals": [
       {
         "type": "yc_batch",
-        "label": "YC batch W24",
-        "url": "https://www.ycombinator.com/companies/keystroke",
+        "label": "YC batch W25",
+        "url": "https://www.ycombinator.com/companies/mastra",
         "date": null
       },
       {
         "type": "hn_mention",
-        "label": "HN: \"iOS14 reveals that TikTok may snoop clipboard contents every few keystrokes\" \u2014 1847 points, 591 comments",
-        "url": "https://news.ycombinator.com/item?id=23634138",
-        "date": "2020-06-24T21:34:32Z"
+        "label": "HN: \"Show HN: Mastra \u2013 Open-source JS agent framework, by the developers of Gatsby\" \u2014 442 points, 154 comments",
+        "url": "https://news.ycombinator.com/item?id=43103073",
+        "date": "2025-02-19T15:25:08Z"
       },
       {
         "type": "hn_mention",
-        "label": "HN: \"LinkedIn is copying the contents of my clipboard on every keystroke\" \u2014 928 points, 360 comments",
-        "url": "https://news.ycombinator.com/item?id=23716451",
-        "date": "2020-07-02T18:33:48Z"
+        "label": "HN: \"Show HN: Mastra 1.0, open-source JavaScript agent framework from the Gatsby devs\" \u2014 213 points, 70 comments",
+        "url": "https://news.ycombinator.com/item?id=46693959",
+        "date": "2026-01-20T16:38:56Z"
       },
       {
         "type": "hn_mention",
-        "label": "HN: \"Meta to start capturing employee mouse movements, keystrokes for AI training\" \u2014 803 points, 525 comments",
-        "url": "https://news.ycombinator.com/item?id=47851948",
-        "date": "2026-04-21T17:40:39Z"
+        "label": "HN: \"Building AI Agents with Mastra and Deno\" \u2014 5 points, 1 comments",
+        "url": "https://news.ycombinator.com/item?id=43634533",
+        "date": "2025-04-09T17:06:45Z"
       },
       {
         "type": "hn_mention",
-        "label": "HN: \"Why does SSH send 100 packets per keystroke?\" \u2014 662 points, 362 comments",
-        "url": "https://news.ycombinator.com/item?id=46723990",
-        "date": "2026-01-22T19:27:32Z"
+        "label": "HN: \"Multiple mastra NPM packages compromised\" \u2014 4 points, 1 comments",
+        "url": "https://news.ycombinator.com/item?id=48564925",
+        "date": "2026-06-17T02:10:51Z"
       },
       {
         "type": "hn_mention",
-        "label": "HN: \"Keystroke timing obfuscation added to ssh(1)\" \u2014 586 points, 253 comments",
-        "url": "https://news.ycombinator.com/item?id=37307708",
-        "date": "2023-08-29T13:36:05Z"
+        "label": "HN: \"Mastra is now Apache 2.0 licensed\" \u2014 4 points, 0 comments",
+        "url": "https://news.ycombinator.com/item?id=44532082",
+        "date": "2025-07-11T13:44:04Z"
+      }
+    ]
+  },
+  {
+    "name": "Osmosis",
+    "slug": "osmosis",
+    "website": "https://osmosis.ai/",
+    "one_liner": "Reinforcement Learning (RL) for AI Agents",
+    "description": "Osmosis is a post-training platform that helps companies fine-tune language models using reinforcement learning. We work with fast-growing AI companies to train task/domain-specific models that beat foundation models on performance, cost, and latency. Our platform handles compute orchestration, reward modeling, and training run observability as a CLI-based product usable by developers and agents. ",
+    "founders": [],
+    "team_signal": "Team size 6",
+    "tags": [
+      "Infrastructure",
+      "Artificial Intelligence",
+      "Reinforcement Learning",
+      "B2B",
+      "Machine Learning"
+    ],
+    "sources": [
+      "yc"
+    ],
+    "source_urls": [
+      "https://www.ycombinator.com/companies/osmosis"
+    ],
+    "traction_signals": [
+      {
+        "type": "yc_batch",
+        "label": "YC batch W25",
+        "url": "https://www.ycombinator.com/companies/osmosis",
+        "date": null
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"Everyone Was Wrong About Reverse Osmosis\u2013Until Now\" \u2014 208 points, 79 comments",
+        "url": "https://news.ycombinator.com/item?id=35860705",
+        "date": "2023-05-08T12:12:56Z"
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"Osmosis: Web scraper for Node.js\" \u2014 61 points, 20 comments",
+        "url": "https://news.ycombinator.com/item?id=9324684",
+        "date": "2015-04-05T17:23:05Z"
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"Stay home science project: Enlarge gummy bears to reveal the secrets of osmosis\" \u2014 42 points, 18 comments",
+        "url": "https://news.ycombinator.com/item?id=23075453",
+        "date": "2020-05-05T01:38:14Z"
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"Upending a decades-long theory of reverse osmosis water desalinatio\" \u2014 9 points, 1 comments",
+        "url": "https://news.ycombinator.com/item?id=35606682",
+        "date": "2023-04-17T21:15:02Z"
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"Upending a decades-long theory of reverse osmosis water desalination\" \u2014 8 points, 0 comments",
+        "url": "https://news.ycombinator.com/item?id=35633432",
+        "date": "2023-04-19T21:17:16Z"
       }
     ]
   },
@@ -385,6 +443,67 @@
         "label": "HN: \"25 years ago today, NCSA Mosaic 1.0 was released\" \u2014 205 points, 64 comments",
         "url": "https://news.ycombinator.com/item?id=18428682",
         "date": "2018-11-11T21:24:13Z"
+      }
+    ]
+  },
+  {
+    "name": "Trava",
+    "slug": "trava",
+    "website": "https://www.usetrava.com/",
+    "one_liner": "AI agents for global trade compliance",
+    "description": "Trava is building AI agents for global trade compliance. Importers lose billions each year to duty overpayments and filing errors. Trava audits customs entries and automates classification to help importers protect margins and stay compliant at scale.",
+    "founders": [],
+    "team_signal": "Team size 1",
+    "tags": [
+      "Logistics",
+      "B2B",
+      "Generative AI",
+      "Supply Chain and Logistics",
+      "Compliance",
+      "Supply Chain"
+    ],
+    "sources": [
+      "yc"
+    ],
+    "source_urls": [
+      "https://www.ycombinator.com/companies/trava"
+    ],
+    "traction_signals": [
+      {
+        "type": "yc_batch",
+        "label": "YC batch W25",
+        "url": "https://www.ycombinator.com/companies/trava",
+        "date": null
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"The WebSocket Protocol - Past Travails Are To Be Avoided\" \u2014 20 points, 3 comments",
+        "url": "https://news.ycombinator.com/item?id=2899228",
+        "date": "2011-08-18T14:13:26Z"
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"Time Travails\" \u2014 13 points, 3 comments",
+        "url": "https://news.ycombinator.com/item?id=498588",
+        "date": "2009-02-28T23:37:13Z"
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"The travails of Detroit\" \u2014 10 points, 2 comments",
+        "url": "https://news.ycombinator.com/item?id=507926",
+        "date": "2009-03-09T04:38:04Z"
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"Egos and experiments: Andrew Scull on the travails of social psychology\" \u2014 7 points, 0 comments",
+        "url": "https://news.ycombinator.com/item?id=18963838",
+        "date": "2019-01-21T21:38:08Z"
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"Indian Startups travails with Ruthless Indian payment gateway providers\" \u2014 4 points, 2 comments",
+        "url": "https://news.ycombinator.com/item?id=3279757",
+        "date": "2011-11-26T13:51:39Z"
       }
     ]
   },
@@ -499,101 +618,102 @@
     ]
   },
   {
-    "name": "Ellipsis",
-    "slug": "ellipsis",
-    "website": "https://ellipsis.dev",
-    "one_liner": "Cloud platform for coding agents",
-    "description": "Ellipsis is a cloud platform that allows engineering teams to deploy fleets of coding agents. Each agent gets an isolated sandbox, scoped permissions, and hard budget caps. Full observability included. Get started with a $100 credit at www.ellipsis.dev.\r\n\r\nYou can deploy agents for feature development, code review, and workflow automation. Creating an agent is simple: simply commit a YAML file to Github. Spawn agents from Github/Linear/Slack/etc., or via a REST API or our CLI. \r\n\r\nOrganizations get full observability and governance of their cloud coding agents.  Agent session logs are downloadable so companies own their own data.\r\n\r\nFull documentation: https://www.ellipsis.dev/docs",
+    "name": "Macadamia",
+    "slug": "macadamia",
+    "website": "https://macadamialabs.com",
+    "one_liner": "AI Agents for Complex Engineering Projects",
+    "description": "Macadamia builds AI agents for complex engineering projects. \r\nThey automate both engineering & business processes, to automate away all low-leverage work.\r\nIt integrates with all engineering data sources, technical documentation, and third-party software tools.\r\nMacadamia serves customers in mechanical engineering, manufacturing, and construction.",
     "founders": [],
     "team_signal": "Team size 2",
     "tags": [
       "Engineering, Product and Design",
-      "B2B",
-      "AI",
-      "Artificial Intelligence",
-      "Developer Tools",
-      "Machine Learning"
+      "B2B"
     ],
     "sources": [
       "yc"
     ],
     "source_urls": [
-      "https://www.ycombinator.com/companies/ellipsis"
-    ],
-    "traction_signals": [
-      {
-        "type": "yc_batch",
-        "label": "YC batch W24",
-        "url": "https://www.ycombinator.com/companies/ellipsis",
-        "date": null
-      },
-      {
-        "type": "hn_mention",
-        "label": "HN: \"Show HN: Ellipsis \u2013 Automated PR reviews and bug fixes\" \u2014 121 points, 64 comments",
-        "url": "https://news.ycombinator.com/item?id=40309719",
-        "date": "2024-05-09T16:14:47Z"
-      },
-      {
-        "type": "hn_mention",
-        "label": "HN: \"CSS \"text-overflow: ellipsis;\" finally landed in Gecko\" \u2014 88 points, 27 comments",
-        "url": "https://news.ycombinator.com/item?id=2691598",
-        "date": "2011-06-24T09:39:47Z"
-      },
-      {
-        "type": "hn_mention",
-        "label": "HN: \"The History of the Ellipsis, from Medieval Subpuncting to Irrational Numbers\" \u2014 46 points, 3 comments",
-        "url": "https://news.ycombinator.com/item?id=12324927",
-        "date": "2016-08-20T02:48:43Z"
-      }
-    ]
-  },
-  {
-    "name": "superglue",
-    "slug": "superglue",
-    "website": "https://superglue.ai/",
-    "one_liner": "connect, migrate and implement enterprise systems",
-    "description": "superglue learns how your systems work from your company's knowledge and performs the implementation that normally requires human coordination and engineering work.\r\n\r\nImplement NetSuite, Sage Intacct, SAP, Business Central or Acumatica in days. Agents map and migrate legacy data, configure the system, and keep data in sync post go-live.\r\nConnect ERP, CRM, databases, and internal systems to AI platforms like Claude. Create governed data access for AI agents and track data usage across your org.\r\nConnect customer systems, import historical data and get new integrations live in hours. Let agents manage the entire implementation process end-to-end.\r\n",
-    "founders": [],
-    "team_signal": "Team size 6",
-    "tags": [
-      "Engineering, Product and Design",
-      "B2B",
-      "Enterprise Software",
-      "AI",
-      "Enterprise",
-      "Open Source",
-      "API"
-    ],
-    "sources": [
-      "yc"
-    ],
-    "source_urls": [
-      "https://www.ycombinator.com/companies/superglue"
+      "https://www.ycombinator.com/companies/macadamia"
     ],
     "traction_signals": [
       {
         "type": "yc_batch",
         "label": "YC batch W25",
-        "url": "https://www.ycombinator.com/companies/superglue",
+        "url": "https://www.ycombinator.com/companies/macadamia",
         "date": null
       },
       {
         "type": "hn_mention",
-        "label": "HN: \"Google T5 scores 88.9 on SuperGLUE Benchmark, approaching human baseline\" \u2014 303 points, 235 comments",
-        "url": "https://news.ycombinator.com/item?id=21350290",
-        "date": "2019-10-24T23:38:07Z"
+        "label": "HN: \"70% of the World\u2019s Macadamia Nuts Came from One Tree in Australia\" \u2014 3 points, 0 comments",
+        "url": "https://news.ycombinator.com/item?id=22418724",
+        "date": "2020-02-25T23:35:10Z"
       },
       {
         "type": "hn_mention",
-        "label": "HN: \"Show HN: Superglue \u2013 open source API connector that writes its own code\" \u2014 198 points, 48 comments",
-        "url": "https://news.ycombinator.com/item?id=43196374",
-        "date": "2025-02-27T17:20:22Z"
+        "label": "HN: \"Macadamia Nut Cookie may be the internal codename for Android M\" \u2014 2 points, 1 comments",
+        "url": "https://news.ycombinator.com/item?id=9597486",
+        "date": "2015-05-24T20:36:47Z"
       },
       {
         "type": "hn_mention",
-        "label": "HN: \"AWS Superglue Vulnerability\" \u2014 43 points, 5 comments",
-        "url": "https://news.ycombinator.com/item?id=29923004",
-        "date": "2022-01-13T16:48:43Z"
+        "label": "HN: \"Growers enlist forensic firm to verify origin of Hawai\u02bbi macadamia nut products\" \u2014 1 points, 2 comments",
+        "url": "https://news.ycombinator.com/item?id=34738073",
+        "date": "2023-02-10T10:54:22Z"
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"Remote Usability Testing Tools: Demystified | Macadamian Blog\" \u2014 1 points, 0 comments",
+        "url": "https://news.ycombinator.com/item?id=3450973",
+        "date": "2012-01-11T09:06:41Z"
+      }
+    ]
+  },
+  {
+    "name": "VideoGen",
+    "slug": "videogen",
+    "website": "https://videogen.io",
+    "one_liner": "Create professional videos in minutes with AI, online or via API",
+    "description": "VideoGen makes it easy for anyone to create professional, copyright-free videos in seconds. Our AI video generator turns a prompt, script, or article into a finished video, complete with AI voiceover, subtitles, and b-roll, powered by the latest models like Sora, Veo, and Kling. Today, over 5 million users trust VideoGen, from individuals and small businesses to teams at Google and ByteDance.\r\n\r\nMaking videos is hard, time-consuming, and expensive if you hire someone to do it for you. With VideoGen, it only takes a few clicks! Try it at https://videogen.io/, or build video into your own product with our API: https://videogen.io/videogen-api",
+    "founders": [],
+    "team_signal": "Team size 6",
+    "tags": [
+      "API",
+      "eLearning",
+      "Video",
+      "B2B",
+      "AI Assistant",
+      "Marketing"
+    ],
+    "sources": [
+      "yc"
+    ],
+    "source_urls": [
+      "https://www.ycombinator.com/companies/videogen"
+    ],
+    "traction_signals": [
+      {
+        "type": "yc_batch",
+        "label": "YC batch S24",
+        "url": "https://www.ycombinator.com/companies/videogen",
+        "date": null
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"Locally Uncensored \u2013 Local AI desktop app(chat,codeagent,image/videogen,nocloud)\" \u2014 3 points, 2 comments",
+        "url": "https://news.ycombinator.com/item?id=47720778",
+        "date": "2026-04-10T16:49:56Z"
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"VideoGen company sent me a copyright violation\" \u2014 2 points, 3 comments",
+        "url": "https://news.ycombinator.com/item?id=42579332",
+        "date": "2025-01-02T21:52:14Z"
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"Videogenr.com\" \u2014 2 points, 2 comments",
+        "url": "https://news.ycombinator.com/item?id=48701280",
+        "date": "2026-06-27T20:09:36Z"
       }
     ]
   },
@@ -673,107 +793,37 @@
     ]
   },
   {
-    "name": "Proxis",
-    "slug": "proxis",
-    "website": "https://www.proxis.ai/",
-    "one_liner": "The platform for enterprise AI agent automations, starting with email.",
-    "description": "Proxis is the AI automation platform\u00a0built for enterprises.\r\n\r\nProxis is creating AI email agents that empower brands and enterprise teams to close deals automatically. Think: your inbox, on autopilot.\r\n\r\nWe initially fine tuned and distilled LLMs for enterprise use\u2014and quickly realized that companies need more than just smarter models. They need full-stack automation. So Proxis built AI agents that handle the tedious, time-consuming work\u2014everything from autonomous sales closers to\u00a0customer service agents.\r\n\r\nThe mission is bold: to build the world\u2019s most capable team of AI agents for every enterprise. Proxis imagines a future where a single founder can run a billion-dollar company\u2014backed by a custom-built army of agents. Proxis is rethinking how agents are built, trained, and deployed from the ground up.",
+    "name": "OffDeal",
+    "slug": "offdeal",
+    "website": "https://offdeal.io",
+    "one_liner": "AI-native investment bank for small businesses",
+    "description": "OffDeal is an AI-native investment bank, offering small business owners a faster, cheaper way to sell their companies at premium prices. Our AI technology automates most of the grunt work typically done by analysts at larger Wall Street banks, enabling our in-house M&A advisors to focus more on strategic client interactions, leading to better outcomes for both sellers and buyers.",
     "founders": [],
-    "team_signal": "Team size 3",
+    "team_signal": "Team size 15",
     "tags": [
-      "Productivity",
-      "B2B",
-      "SaaS",
-      "AI",
-      "Email"
-    ],
-    "sources": [
-      "yc"
-    ],
-    "source_urls": [
-      "https://www.ycombinator.com/companies/proxis"
-    ],
-    "traction_signals": [
-      {
-        "type": "yc_batch",
-        "label": "YC batch S24",
-        "url": "https://www.ycombinator.com/companies/proxis",
-        "date": null
-      },
-      {
-        "type": "hn_mention",
-        "label": "HN: \"Go See Proxistant Vision at Sfmcd\" \u2014 1 points, 0 comments",
-        "url": "https://news.ycombinator.com/item?id=34437038",
-        "date": "2023-01-19T05:31:36Z"
-      }
-    ]
-  },
-  {
-    "name": "Truffle AI",
-    "slug": "truffle-ai",
-    "website": "https://www.trytruffle.ai/",
-    "one_liner": "AWS for AI Agents",
-    "description": "Truffle AI makes it easy for developers to integrate AI agents into any software application. We do this by exposing agents as simple APIs that can be called from anywhere. Developers have used Truffle to add customer support agents into WhatsApp and analytics agents into Slack.",
-    "founders": [],
-    "team_signal": "Team size 2",
-    "tags": [
-      "Generative AI",
-      "Engineering, Product and Design",
-      "B2B",
-      "Infrastructure",
       "Artificial Intelligence",
-      "Developer Tools",
-      "AI Assistant"
+      "B2B",
+      "SMB",
+      "Fintech"
     ],
     "sources": [
       "yc"
     ],
     "source_urls": [
-      "https://www.ycombinator.com/companies/truffle-ai"
+      "https://www.ycombinator.com/companies/offdeal"
     ],
     "traction_signals": [
       {
         "type": "yc_batch",
-        "label": "YC batch W25",
-        "url": "https://www.ycombinator.com/companies/truffle-ai",
+        "label": "YC batch W24",
+        "url": "https://www.ycombinator.com/companies/offdeal",
         "date": null
       },
       {
         "type": "hn_mention",
-        "label": "HN: \"Show HN: Truffle AI \u2013 No-Code Serverless AI Agents Platform\" \u2014 2 points, 0 comments",
-        "url": "https://news.ycombinator.com/item?id=42084404",
-        "date": "2024-11-08T05:23:30Z"
-      }
-    ]
-  },
-  {
-    "name": "Portal (SPC F25)",
-    "slug": "portal-spc-f25",
-    "website": "https://www.makeportals.com/",
-    "one_liner": "Try products with browser session sandboxes",
-    "description": "",
-    "founders": [],
-    "team_signal": "",
-    "tags": [],
-    "sources": [
-      "hn"
-    ],
-    "source_urls": [
-      "https://news.ycombinator.com/item?id=47340686",
-      "https://www.makeportals.com/"
-    ],
-    "traction_signals": [
-      {
-        "type": "hn_show_hn",
-        "label": "Show HN: 5 points, 0 comments",
-        "url": "https://news.ycombinator.com/item?id=47340686",
-        "date": "2026-03-11T20:07:44Z"
-      },
-      {
-        "type": "hn_mention",
-        "label": "HN: \"Show HN: Portal (SPC F25) \u2013 Try products with browser session sandboxes\" \u2014 5 points, 0 comments",
-        "url": "https://news.ycombinator.com/item?id=47340686",
-        "date": "2026-03-11T20:07:44Z"
+        "label": "HN: \"AI Trump Tariff Calculator\" \u2014 3 points, 0 comments",
+        "url": "https://news.ycombinator.com/item?id=43645662",
+        "date": "2025-04-10T16:40:06Z"
       }
     ]
   }

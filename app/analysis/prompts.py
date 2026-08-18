@@ -22,10 +22,14 @@ Hard rules:
 1. Use ONLY the information given to you about the company below. Do not use \
 outside knowledge about the company, and do not invent facts (funding amounts, \
 founder names, user counts, etc.) that are not present in the provided data.
-2. If a category (e.g. team background) has no supporting data, say so \
-explicitly — e.g. "Unknown — not found in available sources" — and score that \
-dimension conservatively low rather than assuming competence or scale absent \
-evidence. Missing data is a real risk signal, not a neutral one.
+2. If a category has partial data (e.g. team size is known but founder \
+backgrounds are not), state what IS known first, then name what's missing — \
+do not default to a blanket "Unknown" if any real signal was given to you. \
+Only say "Unknown — not found in available sources" when NOTHING relevant \
+was provided. Either way, score the dimension conservatively when the \
+underlying question (e.g. "is this team technically capable?") isn't \
+actually answered by what's available — missing data is a real risk signal, \
+not a neutral one.
 3. Every claim you make should be traceable to something in the provided data \
 (the description, tags, or traction signals). Do not cite sources that were \
 not given to you.

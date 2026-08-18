@@ -1,0 +1,31 @@
+{
+  "name": "rtrvr.ai",
+  "slug": "rtrvr-ai",
+  "website": "https://chromewebstore.google.com/detail/rtrvrai/jldogdgepmcedfdhgnmclgemehfhpomg",
+  "team": "No information available about the team or founders. This lack of data raises concerns about the technical capability and domain expertise needed to build a reliable agent.",
+  "product": "The product claims to automate workflows and data extraction, but lacks a concrete, named workflow being automated. There is no evidence of genuine agentic behavior as the description is vague and does not specify multi-step, tool-using capabilities. While there are multiple mentions on Hacker News, they do not provide substantial evidence of real usage or traction, such as user retention or engagement metrics.",
+  "market": "The market for SMBs needing automation for workflows and data extraction is large, but the competitive landscape is unclear due to the lack of specific information on competitors or incumbents. The 'why now' argument is weak, as the description does not tie the product's capabilities to recent advancements in LLM technology.",
+  "risks": [
+    "Lack of clarity on the specific workflows being automated raises questions about the product's utility.",
+    "No information on the team increases the risk of execution failure due to potential lack of expertise.",
+    "The vague nature of the product description suggests it may not provide genuine agentic behavior, leading to potential trust issues with SMBs. This could result in costly mistakes if the agent is not reliable."
+  ],
+  "mind_changers": [
+    "Evidence of a specific, named workflow being automated would clarify the product's value proposition.",
+    "Information about the founders' backgrounds or relevant experience would help assess the team's capability.",
+    "Demonstrated traction or user engagement metrics would provide confidence in the product's adoption and effectiveness."
+  ],
+  "sub_scores": {
+    "team": 0.0,
+    "product": 20.0,
+    "market": 50.0,
+    "risk_adjustment": 30.0
+  },
+  "score": 24.5,
+  "call": "Pass",
+  "source_urls": [
+    "https://news.ycombinator.com/item?id=42496918",
+    "https://chromewebstore.google.com/detail/rtrvrai/jldogdgepmcedfdhgnmclgemehfhpomg"
+  ],
+  "generated_at": "2026-08-18T16:44:21.481086+00:00"
+}

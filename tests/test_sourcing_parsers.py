@@ -2,7 +2,8 @@ import json
 from pathlib import Path
 
 from app.sourcing.hn import _parse_show_hn_title
-from app.sourcing.yc import _keywords, _relevance
+from app.sourcing.relevance import expand_keywords, score_relevance
+from app.sourcing.yc import _relevance
 from app.util import normalize_domain, slugify
 
 FIXTURES = Path(__file__).parent / "fixtures"
@@ -13,21 +14,57 @@ def load_yc_fixture():
 
 
 def test_keywords_strips_stopwords_and_short_tokens():
-    kws = _keywords("AI agents for SMBs")
+    kws = expand_keywords("AI agents for SMBs")
     assert "agents" in kws
     assert "smbs" in kws
     assert "for" not in kws  # stopword
     assert "ai" not in kws  # len <= 2, dropped
 
 
+def test_keywords_expands_smb_synonyms():
+    # "smbs" alone almost never appears verbatim in company copy — companies
+    # say "small business" instead, so the synonym expansion is what makes
+    # ranking actually favor SMB-focused startups over generic agent startups.
+    kws = expand_keywords("AI agents for SMBs")
+    assert "small business" in kws
+    assert "small businesses" in kws
+
+
 def test_relevance_ranks_on_topic_company_higher():
     companies = load_yc_fixture()
-    keywords = _keywords("AI agents for SMBs bookkeeping")
+    keywords = expand_keywords("AI agents for SMBs bookkeeping")
 
     scores = {c["name"]: _relevance(c, keywords) for c in companies}
 
     assert scores["InvoiceAgent"] > scores["SpaceRobotics"]
     assert scores["SpaceRobotics"] == 0
+
+
+def test_relevance_favors_specific_smb_phrase_over_repeated_generic_word():
+    # A company that only ever says "agent" a lot, but never mentions SMBs,
+    # should not outrank one that explicitly targets small businesses even
+    # if it mentions "agent" less often.
+    keywords = expand_keywords("AI agents for SMBs")
+    generic_agent_co = {
+        "oneLiner": "An agent platform for agents to build agents",
+        "longDescription": "Agent infrastructure for agent developers building agentic agents.",
+        "tags": [],
+        "industries": [],
+    }
+    smb_focused_co = {
+        "oneLiner": "An AI agent that automates bookkeeping for small businesses",
+        "longDescription": "Built for small business owners.",
+        "tags": [],
+        "industries": [],
+    }
+
+    assert score_relevance(
+        " ".join([smb_focused_co["oneLiner"], smb_focused_co["longDescription"]]),
+        keywords,
+    ) > score_relevance(
+        " ".join([generic_agent_co["oneLiner"], generic_agent_co["longDescription"]]),
+        keywords,
+    )
 
 
 def test_parse_show_hn_title_with_en_dash():

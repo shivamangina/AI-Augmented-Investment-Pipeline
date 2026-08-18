@@ -1,0 +1,30 @@
+{
+  "name": "Mosaic",
+  "slug": "mosaic",
+  "website": "https://mosaic.so",
+  "team": "The team size is 5, but no specific information about the founders or their backgrounds is provided. This lack of detail raises concerns about their technical depth and domain expertise.",
+  "product": "Mosaic is focused on building frontier video agents, but it is unclear what specific, recurring SMB workflow these agents are automating. The description does not indicate genuine agentic behavior or multi-step tool usage, and there is no evidence of real usage or traction provided.",
+  "market": "The target market is not clearly defined as small-and-medium businesses (SMBs) since the focus appears to be on video agents, which may not align with the thesis. The competitive landscape is also unclear, and there is no credible why-now argument tied to recent LLM capability jumps.",
+  "risks": [
+    "Lack of clarity on the specific workflow being automated raises concerns about the product's relevance to SMBs.",
+    "The focus on video agents suggests a consumer application rather than a back-office operational workflow, which does not align with the investment thesis.",
+    "No evidence of traction or user engagement is provided, which increases the risk of market fit issues."
+  ],
+  "mind_changers": [
+    "Evidence of a specific SMB workflow being automated by the video agents.",
+    "Details about the founders' backgrounds and their experience in the relevant domain.",
+    "Demonstrated traction or usage metrics indicating that the product is being adopted by SMBs."
+  ],
+  "sub_scores": {
+    "team": 30.0,
+    "product": 20.0,
+    "market": 40.0,
+    "risk_adjustment": 20.0
+  },
+  "score": 27.5,
+  "call": "Pass",
+  "source_urls": [
+    "https://www.ycombinator.com/companies/mosaic-2"
+  ],
+  "generated_at": "2026-08-18T16:44:20.154885+00:00"
+}
