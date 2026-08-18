@@ -1,18 +1,14 @@
 # AI-Augmented Investment Pipeline
 
 A three-stage pipeline (Sourcing → Analysis → Recommendation) that turns a
-topic query into one-page investment memos, built for the take-home in
-[`Assignment.MD`](Assignment.MD).
+topic query into one-page investment memos.
 
 ```
 python -m app.cli run --topic "AI agents for SMBs"
 ```
 
-That's the whole interface. It writes `outputs/<topic-slug>/{candidates.json,
-analysis/*.json, memos/*.html}` — all committed to this repo so you can read
-the results without re-running anything. Start at
-[`outputs/ai-agents-for-smbs/memos/index.html`](outputs/ai-agents-for-smbs/memos/index.html)
-(open it in a browser — GitHub will render it as source, not as a page).
+It writes `outputs/<topic-slug>/{candidates.json,
+analysis/*.json, memos/*.html}` . 
 
 See [`PROCESS.md`](PROCESS.md) for how this was built and worked on with AI.
 
@@ -108,15 +104,4 @@ as a real risk rather than a neutral gap. Every memo ends with a Sources
 section listing those same URLs, so a claim in a memo can always be traced
 back to where it came from.
 
-## What's not built
 
-Per the assignment's scope constraint: no job queue, no vector DB, no
-frontend. Concurrency within a run uses plain `asyncio.gather` /
-`Semaphore`, not a task queue. The FastAPI app exists because it was asked
-for explicitly; it's a thin wrapper with no logic of its own, not a second
-implementation of the pipeline.
-
-## Repository access
-
-Per the assignment: add `chiragmakkar` and `hari@emsoft.com` as
-collaborators on the private GitHub repo before submitting.

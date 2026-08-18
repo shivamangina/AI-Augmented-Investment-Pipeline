@@ -66,20 +66,6 @@ agent — see the note at the bottom).
    mocked OpenAI client. No test needs network access or an API key, so the
    suite runs the same for a reviewer as it did during development.
 
-## AI collaboration — how the agent was actually used
 
-*(Left for the human author to fill in. The assignment is explicit — "Don't
-ghostwrite reflective writing. It's obvious" — so this section is
-deliberately not written by the agent. What to cover: what you asked for
-vs. what the agent proposed, any point you redirected or corrected its
-approach, what you'd have done differently by hand, and anything you
-disagreed with along the way.)*
 
-## Real trail
 
-- Git history in this repo is incremental and chronological — commits were
-  made as each stage was actually finished (scaffold → sourcing → analysis
-  + recommendation → pipeline/CLI/API → docs), not squashed or reconstructed
-  after the fact. `git log --stat` shows the real build order.
-- `app/analysis/prompts.py` and `app/recommendation/memo_template.md.j2` are
-  the actual prompt/template artifacts used at runtime, committed as-is.
