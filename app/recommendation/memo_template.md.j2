@@ -1,0 +1,55 @@
+# {{ analysis.name }} — {{ analysis.call | upper }}
+
+**Score: {{ analysis.score }}/100** · {{ analysis.website or "no website found" }}
+Thesis: {{ thesis_name }} · Generated {{ analysis.generated_at[:10] }}
+
+---
+
+## The call
+
+**{{ analysis.call }}** — {{ call_rationale }}
+
+### What would change this call
+{% for item in analysis.mind_changers %}
+{{ loop.index }}. {{ item }}
+{% endfor %}
+
+---
+
+## Score breakdown
+
+| Dimension | Score | Weight | Contribution |
+|---|---|---|---|
+| Team | {{ analysis.sub_scores.team }} | {{ (weights.team * 100) | round(0) | int }}% | {{ (analysis.sub_scores.team * weights.team) | round(1) }} |
+| Product | {{ analysis.sub_scores.product }} | {{ (weights.product * 100) | round(0) | int }}% | {{ (analysis.sub_scores.product * weights.product) | round(1) }} |
+| Market | {{ analysis.sub_scores.market }} | {{ (weights.market * 100) | round(0) | int }}% | {{ (analysis.sub_scores.market * weights.market) | round(1) }} |
+| Risk adjustment | {{ analysis.sub_scores.risk_adjustment }} | {{ (weights.risk_adjustment * 100) | round(0) | int }}% | {{ (analysis.sub_scores.risk_adjustment * weights.risk_adjustment) | round(1) }} |
+| **Total** | | | **{{ analysis.score }}** |
+
+---
+
+## Team
+
+{{ analysis.team }}
+
+## Product
+
+{{ analysis.product }}
+
+## Market
+
+{{ analysis.market }}
+
+## Risks / open questions
+
+{% for risk in analysis.risks %}
+- {{ risk }}
+{% endfor %}
+
+---
+
+## Sources
+
+{% for url in analysis.source_urls %}
+- {{ url }}
+{% endfor %}
