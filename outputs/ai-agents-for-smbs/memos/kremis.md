@@ -1,18 +1,18 @@
 # Kremis — PASS
 
-**Score: 23.2/100** · https://github.com/M2Dr3g0n/kremis
+**Score: 28.2/100** · https://github.com/M2Dr3g0n/kremis
 Thesis: AI Agents & Infrastructure for SMBs · Generated 2026-08-18
 
 ---
 
 ## The call
 
-**Pass** — Scores 23.2/100 — risk profile (15.0/100) is the main blocker and doesn't currently clear the bar.
+**Pass** — Scores 28.2/100 — team (20.0/100) is the main blocker and doesn't currently clear the bar.
 
 ### What would change this call
-1. Evidence of a specific SMB workflow being automated with the memory graph.
-2. Details about the founding team or technical expertise that could validate the capability to build a reliable agent.
-3. Demonstrated traction or usage metrics indicating that the product is being adopted by users.
+1. Evidence of a specific SMB workflow being automated by the product.
+2. Information about the team or founders that demonstrates technical capability or relevant experience.
+3. Demonstrated traction with actual users or paying customers in the SMB space.
 
 ---
 
@@ -23,28 +23,28 @@ Thesis: AI Agents & Infrastructure for SMBs · Generated 2026-08-18
 | Team | 20.0 | 25% | 5.0 |
 | Product | 30.0 | 30% | 9.0 |
 | Market | 25.0 | 25% | 6.2 |
-| Risk adjustment | 15.0 | 20% | 3.0 |
-| **Total** | | | **23.2** |
+| Risk adjustment | 40.0 | 20% | 8.0 |
+| **Total** | | | **28.2** |
 
 ---
 
 ## Team
 
-No information available about the team or founders. This lack of data raises concerns about the team's capability to build a reliable agent.
+No information available about the team or founders. This is a significant risk signal as there is no evidence of technical capability or domain expertise.
 
 ## Product
 
-The product is described as a deterministic memory graph for AI agents, but there is no concrete evidence of a specific, recurring SMB workflow being automated. The product's functionality and agentic behavior are unclear based on the provided information. There are no indications of real usage or traction.
+The product is described as a deterministic memory graph for AI agents, but there is no concrete information on how it automates a specific SMB workflow. It lacks evidence of genuine agentic behavior, as the description does not clarify multi-step, tool-using capabilities or any real usage metrics. The traction signals from Show HN indicate interest but do not provide evidence of actual usage or product-market fit.
 
 ## Market
 
-The market potential is not clearly defined, as there is no information on the specific SMB segment being targeted or the competitive landscape. The lack of a concrete application for the product makes it difficult to assess market reach and size.
+The market potential is unclear due to the lack of specific targeting of SMB workflows. The description does not indicate a clear SMB segment or a compelling why-now argument related to recent LLM capabilities. The competitive landscape is also not addressed, making it difficult to assess the market opportunity.
 
 ## Risks / open questions
 
-- No clear path to self-serve or low-touch SMB distribution due to the lack of a defined workflow.
-- High risk of being a thin wrapper around existing foundation models, as the product description does not indicate unique capabilities or differentiation.
-- Unclear reliability and trustworthiness of the product, which is critical for SMBs that cannot afford operational errors.
+- Lack of clarity on how the product automates a specific SMB workflow, which raises questions about its applicability to the target market.
+- No information on the team or founders increases the risk of execution failure due to potential lack of expertise.
+- The product appears to be a foundational technology (memory graph) rather than a specific application, which could lead to dependency on larger players replicating the feature.
 
 ---
 

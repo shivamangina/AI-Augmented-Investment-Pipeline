@@ -2,26 +2,26 @@
   "name": "Kremis",
   "slug": "kremis",
   "website": "https://github.com/M2Dr3g0n/kremis",
-  "team": "No information available about the team or founders. This lack of data raises concerns about the team's capability to build a reliable agent.",
-  "product": "The product is described as a deterministic memory graph for AI agents, but there is no concrete evidence of a specific, recurring SMB workflow being automated. The product's functionality and agentic behavior are unclear based on the provided information. There are no indications of real usage or traction.",
-  "market": "The market potential is not clearly defined, as there is no information on the specific SMB segment being targeted or the competitive landscape. The lack of a concrete application for the product makes it difficult to assess market reach and size.",
+  "team": "No information available about the team or founders. This is a significant risk signal as there is no evidence of technical capability or domain expertise.",
+  "product": "The product is described as a deterministic memory graph for AI agents, but there is no concrete information on how it automates a specific SMB workflow. It lacks evidence of genuine agentic behavior, as the description does not clarify multi-step, tool-using capabilities or any real usage metrics. The traction signals from Show HN indicate interest but do not provide evidence of actual usage or product-market fit.",
+  "market": "The market potential is unclear due to the lack of specific targeting of SMB workflows. The description does not indicate a clear SMB segment or a compelling why-now argument related to recent LLM capabilities. The competitive landscape is also not addressed, making it difficult to assess the market opportunity.",
   "risks": [
-    "No clear path to self-serve or low-touch SMB distribution due to the lack of a defined workflow.",
-    "High risk of being a thin wrapper around existing foundation models, as the product description does not indicate unique capabilities or differentiation.",
-    "Unclear reliability and trustworthiness of the product, which is critical for SMBs that cannot afford operational errors."
+    "Lack of clarity on how the product automates a specific SMB workflow, which raises questions about its applicability to the target market.",
+    "No information on the team or founders increases the risk of execution failure due to potential lack of expertise.",
+    "The product appears to be a foundational technology (memory graph) rather than a specific application, which could lead to dependency on larger players replicating the feature."
   ],
   "mind_changers": [
-    "Evidence of a specific SMB workflow being automated with the memory graph.",
-    "Details about the founding team or technical expertise that could validate the capability to build a reliable agent.",
-    "Demonstrated traction or usage metrics indicating that the product is being adopted by users."
+    "Evidence of a specific SMB workflow being automated by the product.",
+    "Information about the team or founders that demonstrates technical capability or relevant experience.",
+    "Demonstrated traction with actual users or paying customers in the SMB space."
   ],
   "sub_scores": {
     "team": 20.0,
     "product": 30.0,
     "market": 25.0,
-    "risk_adjustment": 15.0
+    "risk_adjustment": 40.0
   },
-  "score": 23.2,
+  "score": 28.2,
   "call": "Pass",
   "source_urls": [
     "https://news.ycombinator.com/item?id=47048981",
@@ -38,5 +38,5 @@
     "https://news.ycombinator.com/item?id=48741558",
     "https://github.com/hyperb1iss/sibyl"
   ],
-  "generated_at": "2026-08-18T16:44:17.133858+00:00"
+  "generated_at": "2026-08-18T16:48:55.256747+00:00"
 }

@@ -96,6 +96,82 @@
     ]
   },
   {
+    "name": "Prefactor",
+    "slug": "prefactor",
+    "website": "https://www.producthunt.com/r/Y5XXYGBXLHNUGG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+296409%29",
+    "one_liner": "Evaluate your AI Agents in real-time",
+    "description": "Closed voice platforms make you rent your own agents. Dograh is completely open source- nothing is gated. Visual flow builder, add your model key across 30+ integrations or use local models, telephony, human transfer, and advanced QA & monitoring - all free to self-host in one command. Also connect your claude code with MCP to build voice agents for a use case or call recordings.",
+    "founders": [],
+    "team_signal": "",
+    "tags": [
+      "SaaS",
+      "Developer Tools",
+      "Artificial Intelligence",
+      "Open Source",
+      "GitHub",
+      "Audio",
+      "Software Engineering",
+      "Advertising",
+      "Social media marketing",
+      "Sales",
+      "Marketing automation"
+    ],
+    "sources": [
+      "producthunt"
+    ],
+    "source_urls": [
+      "https://www.producthunt.com/products/prefactor/launches/prefactor?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+296409%29",
+      "https://www.producthunt.com/products/dograh?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+296409%29",
+      "https://www.producthunt.com/products/coldtea?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+296409%29",
+      "https://www.producthunt.com/products/adant-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+296409%29",
+      "https://www.producthunt.com/products/lev8/launches/lev8?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+296409%29"
+    ],
+    "traction_signals": [
+      {
+        "type": "producthunt_votes",
+        "label": "609 PH upvotes, 195 comments",
+        "url": "https://www.producthunt.com/products/prefactor/launches/prefactor?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+296409%29",
+        "date": "2026-07-28T07:01:00Z"
+      },
+      {
+        "type": "producthunt_votes",
+        "label": "550 PH upvotes, 162 comments",
+        "url": "https://www.producthunt.com/products/dograh?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+296409%29",
+        "date": "2026-08-12T07:01:00Z"
+      },
+      {
+        "type": "producthunt_votes",
+        "label": "518 PH upvotes, 70 comments",
+        "url": "https://www.producthunt.com/products/coldtea?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+296409%29",
+        "date": "2026-08-07T07:01:00Z"
+      },
+      {
+        "type": "producthunt_votes",
+        "label": "608 PH upvotes, 88 comments",
+        "url": "https://www.producthunt.com/products/adant-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+296409%29",
+        "date": "2026-08-05T07:01:00Z"
+      },
+      {
+        "type": "producthunt_votes",
+        "label": "576 PH upvotes, 138 comments",
+        "url": "https://www.producthunt.com/products/lev8/launches/lev8?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+296409%29",
+        "date": "2026-07-21T07:01:00Z"
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"Prefactoring: Clear the Way for Your New Feature\" \u2014 3 points, 0 comments",
+        "url": "https://news.ycombinator.com/item?id=49002339",
+        "date": "2026-07-22T05:49:31Z"
+      },
+      {
+        "type": "hn_mention",
+        "label": "HN: \"Prefactoring: Clear the Way for Your New Feature\" \u2014 2 points, 0 comments",
+        "url": "https://news.ycombinator.com/item?id=49018670",
+        "date": "2026-07-23T08:55:33Z"
+      }
+    ]
+  },
+  {
     "name": "Butter",
     "slug": "butter",
     "website": "https://butter.dev",
@@ -104,8 +180,8 @@
     "founders": [],
     "team_signal": "Team size 2",
     "tags": [
-      "Infrastructure",
-      "B2B"
+      "B2B",
+      "Infrastructure"
     ],
     "sources": [
       "yc"
@@ -161,10 +237,10 @@
     "founders": [],
     "team_signal": "Team size 3",
     "tags": [
+      "Conversational AI",
       "Analytics",
       "B2B",
-      "AI",
-      "Conversational AI"
+      "AI"
     ],
     "sources": [
       "yc"
@@ -220,8 +296,8 @@
     "founders": [],
     "team_signal": "Team size 2",
     "tags": [
-      "Apparel and Cosmetics",
-      "Consumer"
+      "Consumer",
+      "Apparel and Cosmetics"
     ],
     "sources": [
       "yc"
@@ -277,12 +353,12 @@
     "founders": [],
     "team_signal": "Team size 30",
     "tags": [
-      "Open Source",
-      "Engineering, Product and Design",
-      "AI",
-      "Artificial Intelligence",
       "B2B",
-      "Developer Tools"
+      "Artificial Intelligence",
+      "Developer Tools",
+      "Engineering, Product and Design",
+      "Open Source",
+      "AI"
     ],
     "sources": [
       "yc"
@@ -338,10 +414,10 @@
     "founders": [],
     "team_signal": "Team size 6",
     "tags": [
+      "B2B",
       "Infrastructure",
       "Artificial Intelligence",
       "Reinforcement Learning",
-      "B2B",
       "Machine Learning"
     ],
     "sources": [
@@ -455,12 +531,12 @@
     "founders": [],
     "team_signal": "Team size 1",
     "tags": [
-      "Logistics",
       "B2B",
-      "Generative AI",
-      "Supply Chain and Logistics",
+      "Logistics",
+      "Supply Chain",
       "Compliance",
-      "Supply Chain"
+      "Supply Chain and Logistics",
+      "Generative AI"
     ],
     "sources": [
       "yc"
@@ -626,8 +702,8 @@
     "founders": [],
     "team_signal": "Team size 2",
     "tags": [
-      "Engineering, Product and Design",
-      "B2B"
+      "B2B",
+      "Engineering, Product and Design"
     ],
     "sources": [
       "yc"
@@ -678,10 +754,10 @@
     "team_signal": "Team size 6",
     "tags": [
       "API",
-      "eLearning",
-      "Video",
-      "B2B",
       "AI Assistant",
+      "B2B",
+      "Video",
+      "eLearning",
       "Marketing"
     ],
     "sources": [
@@ -789,41 +865,6 @@
         "label": "HN: \"Show HN: LLM Shield (Prompt Injection protection for developers)\" \u2014 1 points, 0 comments",
         "url": "https://news.ycombinator.com/item?id=46871424",
         "date": "2026-02-03T14:31:34Z"
-      }
-    ]
-  },
-  {
-    "name": "OffDeal",
-    "slug": "offdeal",
-    "website": "https://offdeal.io",
-    "one_liner": "AI-native investment bank for small businesses",
-    "description": "OffDeal is an AI-native investment bank, offering small business owners a faster, cheaper way to sell their companies at premium prices. Our AI technology automates most of the grunt work typically done by analysts at larger Wall Street banks, enabling our in-house M&A advisors to focus more on strategic client interactions, leading to better outcomes for both sellers and buyers.",
-    "founders": [],
-    "team_signal": "Team size 15",
-    "tags": [
-      "Artificial Intelligence",
-      "B2B",
-      "SMB",
-      "Fintech"
-    ],
-    "sources": [
-      "yc"
-    ],
-    "source_urls": [
-      "https://www.ycombinator.com/companies/offdeal"
-    ],
-    "traction_signals": [
-      {
-        "type": "yc_batch",
-        "label": "YC batch W24",
-        "url": "https://www.ycombinator.com/companies/offdeal",
-        "date": null
-      },
-      {
-        "type": "hn_mention",
-        "label": "HN: \"AI Trump Tariff Calculator\" \u2014 3 points, 0 comments",
-        "url": "https://news.ycombinator.com/item?id=43645662",
-        "date": "2025-04-10T16:40:06Z"
       }
     ]
   }

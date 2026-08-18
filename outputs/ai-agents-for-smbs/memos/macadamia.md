@@ -11,8 +11,8 @@ Thesis: AI Agents & Infrastructure for SMBs · Generated 2026-08-18
 
 ### What would change this call
 1. Evidence of a specific, named workflow being automated that demonstrates genuine agentic behavior.
-2. Details about the founders' backgrounds, particularly any relevant experience in engineering or AI.
-3. Demonstrated traction or early customer feedback indicating product-market fit.
+2. Details about the founders' backgrounds, particularly in engineering or AI, that indicate technical competence.
+3. Any traction metrics or early customer feedback that suggest product-market fit.
 
 ---
 
@@ -30,21 +30,21 @@ Thesis: AI Agents & Infrastructure for SMBs · Generated 2026-08-18
 
 ## Team
 
-The team size is 2, but there is no information available about the founders or their backgrounds. This lack of detail raises concerns about their technical depth and domain expertise in the specific SMB vertical being targeted.
+The team size is 2, but no specific information about the founders or their backgrounds is provided. This lack of detail raises concerns about their technical depth and domain expertise in the engineering vertical.
 
 ## Product
 
-Macadamia aims to automate engineering and business processes for complex engineering projects. However, the description lacks specificity regarding a concrete, named workflow being automated. While it mentions integration with engineering data sources and third-party tools, there is no evidence provided of genuine agentic behavior or real usage metrics such as traction or retention signals.
+Macadamia aims to automate engineering and business processes for complex projects, integrating with various engineering data sources and tools. However, the description lacks specificity about a concrete, named workflow being automated and whether the automation is genuinely agentic (multi-step, tool-using). There is no evidence of real usage or traction signals provided, making it difficult to assess the product's effectiveness and market fit.
 
 ## Market
 
-The target market includes mechanical engineering, manufacturing, and construction, which are sizable segments. However, the competitive landscape is not discussed, and there is no mention of how crowded it is or if incumbents might replicate their offering. The 'why now' argument related to recent LLM capabilities is also absent.
+The company targets mechanical engineering, manufacturing, and construction, which are sizable SMB segments. However, the competitive landscape is not discussed, and there is no clear why-now argument related to recent LLM capabilities. This raises questions about the market's accessibility and the potential for incumbents to replicate their offering.
 
 ## Risks / open questions
 
-- Lack of clarity on specific workflows being automated raises concerns about the product's focus and effectiveness.
-- No evidence of traction or customer engagement, which could indicate a lack of market validation.
-- The small team size (2) without founder information presents a risk regarding their ability to execute and scale the product effectively.
+- Lack of clarity on the specific workflows being automated, which could lead to misalignment with SMB needs.
+- No evidence of traction or real usage, indicating potential market fit issues.
+- The absence of founder information raises concerns about the team's capability to build a reliable agent.
 
 ---
 

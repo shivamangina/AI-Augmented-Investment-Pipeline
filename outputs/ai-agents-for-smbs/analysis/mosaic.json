@@ -2,23 +2,23 @@
   "name": "Mosaic",
   "slug": "mosaic",
   "website": "https://mosaic.so",
-  "team": "The team size is 5, but no specific information about the founders or their backgrounds is provided. This lack of detail raises concerns about their technical depth and domain expertise.",
-  "product": "Mosaic is focused on building frontier video agents, but it is unclear what specific, recurring SMB workflow these agents are automating. The description does not indicate genuine agentic behavior or multi-step tool usage, and there is no evidence of real usage or traction provided.",
-  "market": "The target market is not clearly defined as small-and-medium businesses (SMBs) since the focus appears to be on video agents, which may not align with the thesis. The competitive landscape is also unclear, and there is no credible why-now argument tied to recent LLM capability jumps.",
+  "team": "The team size is 5, but no specific information about the founders or their backgrounds is provided. This lack of detail raises concerns about the team's technical capability and domain expertise.",
+  "product": "The product focuses on building frontier video agents, but it does not specify a concrete, recurring, painful SMB workflow being automated. The description is vague and does not indicate genuine agentic behavior or evidence of real usage, such as traction or retention signals.",
+  "market": "The target market is not clearly defined as it focuses on video agents, which may not align with the SMB back-office workflows specified in the thesis. Additionally, the tags indicate a focus on content and consumer, which does not fit the SMB operational workflow criteria. The competitive landscape and why-now argument are also unclear.",
   "risks": [
-    "Lack of clarity on the specific workflow being automated raises concerns about the product's relevance to SMBs.",
-    "The focus on video agents suggests a consumer application rather than a back-office operational workflow, which does not align with the investment thesis.",
-    "No evidence of traction or user engagement is provided, which increases the risk of market fit issues."
+    "Lack of clarity on the specific workflow being automated raises concerns about market fit for SMBs.",
+    "The focus on video agents may lead to dependency on consumer markets rather than addressing the operational needs of SMBs.",
+    "No evidence of traction or real usage signals, which increases the risk of viability."
   ],
   "mind_changers": [
-    "Evidence of a specific SMB workflow being automated by the video agents.",
-    "Details about the founders' backgrounds and their experience in the relevant domain.",
-    "Demonstrated traction or usage metrics indicating that the product is being adopted by SMBs."
+    "Evidence of a concrete SMB workflow being automated.",
+    "Details about the founders' backgrounds and their relevance to building reliable agents.",
+    "Any traction metrics indicating real usage or interest from SMBs."
   ],
   "sub_scores": {
-    "team": 30.0,
+    "team": 40.0,
     "product": 20.0,
-    "market": 40.0,
+    "market": 30.0,
     "risk_adjustment": 20.0
   },
   "score": 27.5,
@@ -26,5 +26,5 @@
   "source_urls": [
     "https://www.ycombinator.com/companies/mosaic-2"
   ],
-  "generated_at": "2026-08-18T16:44:20.154885+00:00"
+  "generated_at": "2026-08-18T16:48:58.406629+00:00"
 }

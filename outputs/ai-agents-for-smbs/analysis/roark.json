@@ -2,29 +2,29 @@
   "name": "Roark",
   "slug": "roark",
   "website": "https://roark.ai",
-  "team": "The team size is 3, but no information about the founders or their backgrounds is provided. This lack of detail raises concerns about their technical depth and domain expertise in voice AI, which is critical for building a reliable agent. Score is conservative due to missing founder information.",
-  "product": "Roark automates the testing and monitoring of voice agents, which is a concrete and recurring workflow in the voice AI space. The product features multi-step processes, including monitoring, evaluation, and simulations, which indicate genuine agentic behavior. The mention of processing over 10M minutes of calls suggests some level of real usage, but specific metrics on traction or retention are not provided. Overall, the product aligns well with the thesis, but the lack of detailed usage metrics limits the score.",
-  "market": "The market for voice AI is large and growing, with increasing demand for reliable voice agents. However, the description does not specify the targeted SMB segment or provide insight into the competitive landscape. The mention of serving teams across the Voice AI ecosystem, including YC companies, suggests a potentially reachable market, but the lack of clarity on how crowded this space is limits the score. There is a credible why-now argument related to the reliability challenges in voice AI, but more detail on market dynamics would strengthen the case.",
+  "team": "The team size is 3, but there is no information available about the founders or their backgrounds. This lack of detail raises concerns about the team's technical capability and domain expertise in voice AI, which is critical for building a reliable agent. Score reflects uncertainty due to missing founder information.",
+  "product": "Roark automates the testing and monitoring of voice agents, addressing a specific and recurring pain point in the voice AI ecosystem. The product features a full lifecycle loop that turns failed calls into repeatable tests, demonstrating genuine agentic behavior by closing the loop on failures. However, there is no evidence of real usage or traction metrics provided, which limits confidence in the product's effectiveness. Score reflects the solid concept but lack of usage evidence.",
+  "market": "The market for voice AI is large and growing, with Roark targeting teams across the Voice AI ecosystem, including YC companies. However, the competitive landscape is not detailed, and there is a risk that larger incumbents could replicate their features. The 'why now' argument is somewhat implied by the growth in voice AI, but not explicitly tied to recent LLM capability jumps. Score reflects a reachable market but uncertainty about competition.",
   "risks": [
-    "Dependency on the voice AI ecosystem, which may be dominated by larger players who could replicate Roark's features as part of their offerings.",
-    "Reliability and trust risks, as SMBs may be hesitant to adopt a new testing solution without proven reliability, especially in critical voice applications.",
-    "Lack of founder information raises concerns about the team's capability to execute effectively in a competitive landscape. This could impact the company's ability to build a trustworthy product. "
+    "Dependency on the voice AI market, which may be volatile and subject to rapid changes.",
+    "Potential for larger incumbents to replicate Roark's features, which could threaten its market position.",
+    "Reliability concerns for SMBs, as they may not have the resources to manage failures in voice agent performance, leading to trust issues. This is critical as Roark aims to be a QA layer for voice AI. "
   ],
   "mind_changers": [
-    "Evidence of paying customers or significant traction metrics beyond call processing volume.",
-    "Details about the founders' backgrounds, particularly any relevant experience in voice AI or software development.",
-    "Clear differentiation from existing voice AI testing solutions, such as proprietary technology or unique methodologies that enhance reliability. "
+    "Evidence of paying customers or significant traction metrics (e.g., retention rates, user growth) to validate product-market fit.",
+    "Details about the founders' backgrounds, particularly any relevant experience in voice AI or agent reliability engineering.",
+    "Partnerships or integrations with established voice AI platforms that could enhance Roark's credibility and market reach."
   ],
   "sub_scores": {
     "team": 40.0,
-    "product": 70.0,
-    "market": 60.0,
+    "product": 65.0,
+    "market": 70.0,
     "risk_adjustment": 50.0
   },
-  "score": 56.0,
+  "score": 57.0,
   "call": "Watch",
   "source_urls": [
     "https://www.ycombinator.com/companies/roark"
   ],
-  "generated_at": "2026-08-18T16:44:18.415942+00:00"
+  "generated_at": "2026-08-18T16:48:56.617755+00:00"
 }

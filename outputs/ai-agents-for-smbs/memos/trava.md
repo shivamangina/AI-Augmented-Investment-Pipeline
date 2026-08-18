@@ -11,8 +11,8 @@ Thesis: AI Agents & Infrastructure for SMBs · Generated 2026-08-18
 
 ### What would change this call
 1. Evidence of initial customer engagement or pilot programs demonstrating the effectiveness of the AI agents.
-2. Details about the founder's background in trade compliance or AI development that would bolster confidence in the team's capability.
-3. Clear differentiation strategies that show how Trava plans to protect against incumbent competition. 
+2. Details about the founder's background in AI or trade compliance that could bolster confidence in the team's capability.
+3. Information on any proprietary technology or unique approaches to trade compliance that differentiate Trava from potential competitors.
 
 ---
 
@@ -30,21 +30,21 @@ Thesis: AI Agents & Infrastructure for SMBs · Generated 2026-08-18
 
 ## Team
 
-The team size is 1, but no specific information about the founder's background or expertise is provided. This raises concerns about the technical depth and domain expertise required to build a reliable AI agent for global trade compliance.
+The team size is 1, but no specific information about the founder(s) or their backgrounds is provided. This raises concerns about the technical depth and domain expertise necessary to build a reliable AI agent for trade compliance.
 
 ## Product
 
-Trava aims to automate the workflow of auditing customs entries and classifying imports to prevent duty overpayments and filing errors. This is a concrete, recurring pain point for importers. However, there is no evidence provided of real usage or traction, such as customer feedback or retention signals, which raises questions about the product's current effectiveness and adoption.
+Trava aims to automate the workflow of auditing customs entries and classifying goods for global trade compliance. This is a concrete and recurring pain point for importers, as they face significant financial losses due to errors in duty payments and compliance. However, there is no evidence of real usage or traction provided in the data, which is critical for assessing the product's effectiveness and market fit.
 
 ## Market
 
-The global trade compliance market is significant, as importers face substantial financial losses due to compliance issues. However, the competitive landscape is not detailed, and there is no mention of how Trava differentiates itself from potential incumbents or existing solutions. The 'why now' argument is somewhat implied by the need for automation in compliance, but it lacks a direct connection to recent LLM capabilities.
+The target market is importers, which is a sizable segment within the logistics and supply chain industry. However, the competitive landscape is not detailed, and there is no mention of incumbents or existing solutions that could replicate Trava's offering. The 'why now' argument is somewhat implied by the need for compliance automation, but it lacks a direct tie to recent advancements in LLM capabilities.
 
 ## Risks / open questions
 
 - The single founder raises concerns about the team's ability to execute and scale the product effectively.
-- Lack of evidence for traction or customer engagement could indicate a high risk of market entry failure.
-- Dependence on LLM capabilities without clear differentiation could lead to replication by larger incumbents or competitors. This could undermine Trava's long-term viability. 
+- Without evidence of traction or user engagement, there is a risk that the product may not meet market needs or achieve adoption.
+- The reliance on AI for compliance could lead to significant trust issues if the agent makes errors, as SMBs may not have the resources to manage compliance failures.
 
 ---
 

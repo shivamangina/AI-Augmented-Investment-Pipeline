@@ -1,18 +1,18 @@
 # rtrvr.ai — PASS
 
-**Score: 24.5/100** · https://chromewebstore.google.com/detail/rtrvrai/jldogdgepmcedfdhgnmclgemehfhpomg
+**Score: 30.0/100** · https://chromewebstore.google.com/detail/rtrvrai/jldogdgepmcedfdhgnmclgemehfhpomg
 Thesis: AI Agents & Infrastructure for SMBs · Generated 2026-08-18
 
 ---
 
 ## The call
 
-**Pass** — Scores 24.5/100 — team (0.0/100) is the main blocker and doesn't currently clear the bar.
+**Pass** — Scores 30.0/100 — team (20.0/100) is the main blocker and doesn't currently clear the bar.
 
 ### What would change this call
-1. Evidence of a specific, named workflow being automated would clarify the product's value proposition.
-2. Information about the founders' backgrounds or relevant experience would help assess the team's capability.
-3. Demonstrated traction or user engagement metrics would provide confidence in the product's adoption and effectiveness.
+1. Evidence of a specific, named workflow being automated.
+2. Details about the founding team and their relevant experience.
+3. Demonstration of genuine agentic behavior with multi-step automation and tool usage.
 
 ---
 
@@ -20,31 +20,31 @@ Thesis: AI Agents & Infrastructure for SMBs · Generated 2026-08-18
 
 | Dimension | Score | Weight | Contribution |
 |---|---|---|---|
-| Team | 0.0 | 25% | 0.0 |
-| Product | 20.0 | 30% | 6.0 |
-| Market | 50.0 | 25% | 12.5 |
+| Team | 20.0 | 25% | 5.0 |
+| Product | 30.0 | 30% | 9.0 |
+| Market | 40.0 | 25% | 10.0 |
 | Risk adjustment | 30.0 | 20% | 6.0 |
-| **Total** | | | **24.5** |
+| **Total** | | | **30.0** |
 
 ---
 
 ## Team
 
-No information available about the team or founders. This lack of data raises concerns about the technical capability and domain expertise needed to build a reliable agent.
+No information available about the team or founders. This lack of data raises concerns about the technical capability to build a reliable agent.
 
 ## Product
 
-The product claims to automate workflows and data extraction, but lacks a concrete, named workflow being automated. There is no evidence of genuine agentic behavior as the description is vague and does not specify multi-step, tool-using capabilities. While there are multiple mentions on Hacker News, they do not provide substantial evidence of real usage or traction, such as user retention or engagement metrics.
+The product claims to automate workflows and data extraction, but lacks a concrete, named workflow being automated. There is no evidence of genuine agentic behavior or multi-step tool usage provided in the description. The traction signals from HN suggest some interest, but do not confirm real usage or retention.
 
 ## Market
 
-The market for SMBs needing automation for workflows and data extraction is large, but the competitive landscape is unclear due to the lack of specific information on competitors or incumbents. The 'why now' argument is weak, as the description does not tie the product's capabilities to recent advancements in LLM technology.
+The market for SMBs needing workflow automation is large, but the lack of specific targeting and concrete evidence of a reachable segment makes it difficult to assess. The competitive landscape is unclear, and there is no explicit why-now argument tied to recent LLM capabilities.
 
 ## Risks / open questions
 
-- Lack of clarity on the specific workflows being automated raises questions about the product's utility.
-- No information on the team increases the risk of execution failure due to potential lack of expertise.
-- The vague nature of the product description suggests it may not provide genuine agentic behavior, leading to potential trust issues with SMBs. This could result in costly mistakes if the agent is not reliable.
+- No information on the team raises concerns about execution capability.
+- Lack of a concrete workflow means the product may not effectively address a specific pain point for SMBs.
+- Potential for incumbents to replicate the offering as a feature, especially if it is not well-differentiated.
 
 ---
 
